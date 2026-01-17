@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wallpaper Scene Preview</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="panel">
+        <h1>Wallpaper Scene Preview</h1>
+        <p>
+          Source: <code>output/scene.json</code>. This preview loads materials, shaders, and
+          particle resources to validate browser access.
+        </p>
+        <div class="status" id="status">
+          <div class="status-row">
+            <span class="label">Scene</span>
+            <span class="value" id="scene-status">Loading…</span>
+          </div>
+          <div class="status-row">
+            <span class="label">Materials</span>
+            <span class="value" id="materials-status">Loading…</span>
+          </div>
+          <div class="status-row">
+            <span class="label">Shaders</span>
+            <span class="value" id="shaders-status">Loading…</span>
+          </div>
+          <div class="status-row">
+            <span class="label">Particles</span>
+            <span class="value" id="particles-status">Loading…</span>
+          </div>
+        </div>
+        <h2>Loaded Assets</h2>
+        <div class="list" id="asset-list"></div>
+      </aside>
+      <main class="viewport">
+        <canvas id="scene-canvas"></canvas>
+        <div class="overlay" id="overlay">
+          <div class="overlay-title">Scene Render</div>
+          <div class="overlay-detail" id="scene-detail">Preparing renderer…</div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
