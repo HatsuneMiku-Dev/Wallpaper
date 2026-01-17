@@ -1,0 +1,20 @@
+# Wallpaper Scene Browser Preview
+
+This repository includes a lightweight browser preview that reads `output/scene.json` and validates loading of assets from `output/materials`, `output/shaders`, and `output/particles`.
+
+## Local Preview
+
+Because the preview loads JSON and shader files via `fetch`, it must run from a local web server.
+
+```bash
+cd /workspace/Wallpaper
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000/index.html` in your browser.
+
+## What the Preview Does
+
+- Parses `output/scene.json` and renders each image-backed object as a placeholder plane in Three.js.
+- Loads every material, shader, and particle file listed in `asset-manifest.json` to confirm browser access.
+- Reports counts of loaded resources in the sidebar.
