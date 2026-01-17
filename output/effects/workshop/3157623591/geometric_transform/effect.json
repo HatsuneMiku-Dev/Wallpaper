@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/3157623591/effects/geometric_transform.json",
+		"shaders/workshop/3157623591/effects/geometric_transform.frag",
+		"shaders/workshop/3157623591/effects/geometric_transform.vert"
+	],
+	"editable" : false,
+	"group" : "localeffects",
+	"name" : "Geometric Transform",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/3157623591/effects/geometric_transform.json"
+		}
+	],
+	"replacementkey" : "geometric_transform",
+	"version" : 1
+}

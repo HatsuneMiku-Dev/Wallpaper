@@ -1,0 +1,19 @@
+{
+	"dependencies" : 
+	[
+		"materials/workshop/3082978660/effects/Simple_Audio_Bars.json",
+		"shaders/workshop/3082978660/effects/Simple_Audio_Bars.frag",
+		"shaders/workshop/3082978660/effects/Simple_Audio_Bars.vert"
+	],
+	"editable" : false,
+	"group" : "localeffects",
+	"name" : "Enhanced Simple Audio Bars",
+	"passes" : 
+	[
+		{
+			"material" : "materials/workshop/3082978660/effects/Simple_Audio_Bars.json"
+		}
+	],
+	"replacementkey" : "enhanced_simple_audio_bars",
+	"version" : 1
+}

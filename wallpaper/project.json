@@ -1,0 +1,1096 @@
+{
+	"approved" : true,
+	"contentrating" : "Everyone",
+	"description" : "动态制作：-夜莺Night（bilibili/抖音）\r\n原画师：Rella\r\n喜欢的话还请多多支持一下哦\r\n\r\nDynamic production: - 夜莺Night (bilibili/Tiktok)\r\nOriginal artist: Rella\r\nIf you like it, please support me more",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"_01" : 
+			{
+				"fraction" : true,
+				"index" : 29,
+				"max" : 15,
+				"min" : 0,
+				"order" : 129,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "<big><b>🔘组件随音频感应变化大小（拉至0取消）",
+				"type" : "slider",
+				"value" : 1.4
+			},
+			"_2" : 
+			{
+				"condition" : "newproperty50.value",
+				"index" : 44,
+				"order" : 144,
+				"text" : "<b>自定义文字2",
+				"type" : "textinput",
+				"value" : "（可自定义文字）"
+			},
+			"_21" : 
+			{
+				"condition" : "newproperty50.value",
+				"index" : 46,
+				"order" : 146,
+				"text" : "自定义文字2颜色",
+				"type" : "color",
+				"value" : "0.6431372549019608 0.8627450980392157 0.8588235294117647"
+			},
+			"_22" : 
+			{
+				"condition" : "newproperty50.value",
+				"fraction" : true,
+				"index" : 48,
+				"max" : 100,
+				"min" : 0,
+				"order" : 148,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "自定义文字2大小",
+				"type" : "slider",
+				"value" : 33.522
+			},
+			"_24" : 
+			{
+				"condition" : "time.value",
+				"index" : 67,
+				"order" : 167,
+				"text" : "使用24小时格式 Use 24-hour format",
+				"type" : "bool",
+				"value" : true
+			},
+			"audiobarspacing" : 
+			{
+				"condition" : "musicbar.value",
+				"fraction" : true,
+				"index" : 32,
+				"max" : 100,
+				"min" : 1,
+				"order" : 132,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "音频条数量 Number of audio bars",
+				"type" : "slider",
+				"value" : 60
+			},
+			"audiobarspacing1" : 
+			{
+				"condition" : "musicbar.value",
+				"fraction" : true,
+				"index" : 33,
+				"max" : 1,
+				"min" : 0.01,
+				"order" : 133,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "音频条间距 Audio bar spacing",
+				"type" : "slider",
+				"value" : 0.53
+			},
+			"b" : 
+			{
+				"index" : 6,
+				"order" : 106,
+				"text" : "<center><big><b>🔻我的个人主页🔻<br/><a href='https://space.bilibili.com/279406515?spm_id_from=333.1007.0.0'>夜莺Night的个人空间 (点击跳转)</a><big></p>",
+				"type" : "text",
+				"value" : ""
+			},
+			"b1" : 
+			{
+				"condition" : "time.value",
+				"index" : 65,
+				"options" : 
+				[
+					{
+						"label" : "字体1",
+						"value" : "1"
+					},
+					{
+						"label" : "字体2",
+						"value" : "2"
+					},
+					{
+						"label" : "字体3",
+						"value" : "3"
+					},
+					{
+						"label" : "字体4",
+						"value" : "4"
+					},
+					{
+						"label" : "字体5",
+						"value" : "5"
+					}
+				],
+				"order" : 165,
+				"text" : "<b>🔘时间组件字体Time component font",
+				"type" : "combo",
+				"value" : "5"
+			},
+			"bbyy" : 
+			{
+				"index" : 2,
+				"order" : 102,
+				"text" : "<br/><big><b>显示赞助信息<br>Display sponsorship information",
+				"type" : "bool",
+				"value" : false
+			},
+			"bgm" : 
+			{
+				"index" : 90,
+				"order" : 190,
+				"text" : "bgm：",
+				"type" : "textinput",
+				"value" : "before light（不支持自定义）"
+			},
+			"bigbahrefhttpswwwpixivnetusers14881241centerdeyuibr" : 
+			{
+				"index" : 8,
+				"order" : 108,
+				"text" : "<big><b><a href='https://steamcommunity.com/linkfilter/?url=https://www.pixiv.net/users/163536'><center>原画师：Rella <br/>",
+				"type" : "text",
+				"value" : ""
+			},
+			"bigbbackgroundswitch" : 
+			{
+				"index" : 22,
+				"order" : 122,
+				"text" : "<hr/><big><b>🔘背景开关<br/> Background switch",
+				"type" : "bool",
+				"value" : true
+			},
+			"bigbbrahrefhttpssteamcommunitycomlinkfilterurlhttpspanquarkcns559c382d2a1elistshare" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "<big><b><br/><a href='https://steamcommunity.com/linkfilter/?url=https://pan.quark.cn/s/559c382d2a1e#/list/share'>手机壁纸获取方式（点击跳转）",
+				"type" : "bool",
+				"value" : false
+			},
+			"bigbmeteor" : 
+			{
+				"index" : 16,
+				"order" : 116,
+				"text" : "<hr/><big><b>🔘流星 <br/>Meteor",
+				"type" : "bool",
+				"value" : true
+			},
+			"bigbrain" : 
+			{
+				"index" : 18,
+				"order" : 118,
+				"text" : "<hr/><big><b>🔘水面波纹 <br/>Ripples on the water surface",
+				"type" : "bool",
+				"value" : true
+			},
+			"bigbraindropsplashing" : 
+			{
+				"index" : 14,
+				"order" : 114,
+				"text" : "<big><b>🔘星轨<br/> Star Trails",
+				"type" : "bool",
+				"value" : true
+			},
+			"bigweixinbrimgsrchttpmqpiccnpscv54uqdlk3nauxa4j47wn15wvmc4bjxtjtmeugtj9ek67v8ajmqrebsexjslhmg7oisbtzvq3qaceykz8e7d9ipod05wvwfzty7ju024b0oszp7pibqo3uadtyxxx9jjagf1abbo4ghxaqaaaaabbxurfviewer_4width200height200" : 
+			{
+				"index" : 95,
+				"order" : 195,
+				"text" : "<hr/><big><b>国内微信赞助码<br/>Domestic sponsorship code<br/><img src=\"http://m.qpic.cn/psc?/V54UQdlK3naUxA4J47wN15WVMc4bjxtJ/TmEUgtj9EK6.7V8ajmQrEBsexJSlhMg7OiSbTz*Vq3QACEYkZ8E7D9iP.Od05WVwf*Zty7Ju024B0os.zP7PIbqo.3*UAdtYXXx9jjaGF1A!/b&bo=4gHXAQAAAAABBxU!&rf=viewer_4\" width=\"200\" height=\"200\">",
+				"type" : "bool",
+				"value" : true
+			},
+			"brahrefhttpssteamcommunitycomlinkfilterurlhttpswwwpixivnetusers3302692imgsrchttpmqpiccnpscv54uqdlk3nauxa4j47wn15wvmc4bjxtjruamsa53pvqwn7flk88i5tfbuq2vz4itg5qyz3iot5pa7cvulmenvk8nksauv5kscpsabc8oxjmy8wx00btxy00qni12rqrlstoxtkaymnullbobgqubaaaaaabbzirfphotolistt5width200height200" : 
+			{
+				"index" : 96,
+				"order" : 196,
+				"text" : "<hr/><big><b>其他国家赞助码<br/>Sponsorship codes from other countries<br/><img src=\"http://m.qpic.cn/psc?/V54UQdlK3naUxA4J47wN15WVMc4bjxtJ/TmEUgtj9EK6.7V8ajmQrEOlNbbR8QyH.V3DOKIQNRif85YCGLfi9pSXuaZqxdq9vSR5s5uHZgJLf1DqrxMxRMTafCMS1IHiigGZSLlOCyvE!/mnull&bo=SAFIAUgBSAEDByI!&rf=photolist&t=5\" width=\"200\" height=\"200\">",
+				"type" : "bool",
+				"value" : true
+			},
+			"brahrefhttpswwwbilibilicomvideobv11t42157njspm_id_from33399900vd_source6f828cdc8aaedab90f6dc4faa46274eebv11t42157njabigp" : 
+			{
+				"index" : 11,
+				"order" : 111,
+				"text" : "<big>喜欢的话，可不可以求个三连呢？<br/><a href='https://www.bilibili.com/video/BV1cPySY8EoM?spm_id_from=333.788.videopod.sections&vd_source=6f828cdc8aaedab90f6dc4faa46274ee'>BV1cPySY8EoM(点击跳转)</a><big></p>",
+				"type" : "text",
+				"value" : ""
+			},
+			"brimgsrchttpmqpiccnpscv54uqdlk3nauxa4j47wn15wvmc4bjxtjtmeugtj9ek67v8ajmqrebsexjslhmg7oisbtzvq3qaceykz8e7d9ipod05wvwfzty7ju024b0oszp7pibqo3uadtyxxx9jjagf1abbo4ghxaqaaaaabbxurfviewer_4width100height100" : 
+			{
+				"condition" : "bbyy.value",
+				"index" : 3,
+				"order" : 103,
+				"text" : "<br/><img src=\"http://m.qpic.cn/psc?/V54UQdlK3naUxA4J47wN15WVMc4bjxtJ/TmEUgtj9EK6.7V8ajmQrEMQXeDhXW2lYWF93UJF.nZ.2WxR10Rb.mdx71GJTB0aXalAzL1BM3tkUxAZw2oSRRgvDWflCZlln3Eou6lAIMO8!/mnull&bo=6APXAegD1wEDByI!&rf=photolist&t=5\" width=\"300\" height=\"150\">",
+				"type" : "text",
+				"value" : ""
+			},
+			"centerbigbbrahrefhttpswwwpixivnetusers14881241deyuiabigp" : 
+			{
+				"index" : 9,
+				"order" : 109,
+				"text" : "<center><big><b>🔻原画师的个人主页🔻<br/><a href='https://steamcommunity.com/linkfilter/?url=https://www.pixiv.net/users/163536'>Rella的个人空间 (点击跳转)</a><big></p>",
+				"type" : "text",
+				"value" : ""
+			},
+			"centerbrahrefhttpsspacebilibilicom279406515spm_id_from333100700imgsrchttpmqpiccnpscv54uqdlk3nauxa4j47wn15wvmc4bjxtjruamsa53pvqwn7flk88i5o1t30wesuwpf1aedx9ynu3jzdpgixtca7alc4ve6u2zxvyhyjupb4vjkedyez4gv7denu0ovwuqeopmxqkdcbbolwcwaaaaaaadbymrfviewer_4width200height100abigp" : 
+			{
+				"index" : 10,
+				"order" : 110,
+				"text" : "<center><br/><a href='https://steamcommunity.com/linkfilter/?url=https://www.pixiv.net/users/163536'><img src=\"http://m.qpic.cn/psc?/V54UQdlK3naUxA4J47wN15WVMc4bjxtJ/ruAMsa53pVQWN7FLK88i5un5LE4SWHroFj60naCIXZp0Z7xug12eEyRAAtjHDCrvlqAtejGMz70lWlRXUM8tb2zYAiDdjzUgZaZRu7iMBKA!/mnull&bo=mQCdAAAAAAADByY!&rf=photolist&t=5\" width=\"100\" height=\"100\"></a><big></p>",
+				"type" : "text",
+				"value" : ""
+			},
+			"day" : 
+			{
+				"condition" : "day1.value",
+				"index" : 73,
+				"options" : 
+				[
+					{
+						"label" : "字体1",
+						"value" : "1"
+					},
+					{
+						"label" : "字体2",
+						"value" : "2"
+					},
+					{
+						"label" : "字体3",
+						"value" : "3"
+					},
+					{
+						"label" : "字体4",
+						"value" : "4"
+					}
+				],
+				"order" : 173,
+				"text" : "<b>🔘日期组件字体 Date component font",
+				"type" : "combo",
+				"value" : "1"
+			},
+			"day1" : 
+			{
+				"index" : 72,
+				"order" : 172,
+				"text" : "<hr/><big><b>🔘日期组件显示Date component display",
+				"type" : "bool",
+				"value" : true
+			},
+			"frameratecolor" : 
+			{
+				"index" : 58,
+				"order" : 158,
+				"text" : "帧率显示颜色 Frame rate color",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"h3brmainsettingsbrh3" : 
+			{
+				"index" : 13,
+				"order" : 113,
+				"text" : "⚙️主要设置/Main settings",
+				"type" : "group",
+				"value" : ""
+			},
+			"hrb" : 
+			{
+				"index" : 94,
+				"order" : 194,
+				"text" : "<hr><b>喜欢的话，可以小小支持一下吗？你们的支持就是我更新最大的动力",
+				"type" : "bool",
+				"value" : true
+			},
+			"hrbigb" : 
+			{
+				"index" : 41,
+				"order" : 141,
+				"text" : "<hr/><big><b>🔘组件倒影效果 Component Reflection Effect",
+				"type" : "bool",
+				"value" : true
+			},
+			"hrbigbbrcharacterstartrajectory" : 
+			{
+				"index" : 19,
+				"order" : 119,
+				"text" : "<hr/><big><b>🔘人物环绕星轨 <br/>Character Star Trajectory",
+				"type" : "bool",
+				"value" : true
+			},
+			"hrbigbbrfeatherparticles" : 
+			{
+				"index" : 20,
+				"order" : 120,
+				"text" : "<hr/><big><b>🔘粒子<br/>Particles",
+				"type" : "bool",
+				"value" : true
+			},
+			"hrbigbbrstar" : 
+			{
+				"index" : 17,
+				"order" : 117,
+				"text" : "<hr/><big><b>🔘星星<br/>Star",
+				"type" : "bool",
+				"value" : true
+			},
+			"hrbigbgeneralcomponentswitch" : 
+			{
+				"index" : 36,
+				"order" : 136,
+				"text" : "<hr/><big><b>🔘总组件开关 General component switch",
+				"type" : "bool",
+				"value" : true
+			},
+			"imgsrcfilecusersasusdesktop1708838296804pngaltnightwidth200height200" : 
+			{
+				"index" : 7,
+				"order" : 107,
+				"text" : "<center><br/><a href='https://space.bilibili.com/279406515?spm_id_from=333.1007.0.0'><img src=\"http://m.qpic.cn/psc?/V54UQdlK3naUxA4J47wN15WVMc4bjxtJ/ruAMsa53pVQWN7FLK88i5s4Ru.FxJVLHfuEcbN9phT8I00ri*qc9y2RTZyA1aopw88nnmF1sZx37Es.pr9gP*jZUKpvD8qVn72w8522q8Q4!/mnull&bo=QAYWAwAAAAADB3E!&rf=photolist&t=5\" width=\"200\" height=\"100\"></a><big></p>",
+				"type" : "text",
+				"value" : ""
+			},
+			"imgsrcfilecusersasusdesktope782abe5bda94gifwidth100height100" : 
+			{
+				"index" : 0,
+				"order" : 100,
+				"text" : "<img src=\"http://m.qpic.cn/psc?/V54UQdlK3naUxA4J47wN15WVMc4bjxtJ/TmEUgtj9EK6.7V8ajmQrEK.dTR0S5PnqaxucocfhhjUEzkloqXuqp0JsbUmHwzB1hnBAwn4iULfdmGz9S2FcNNdUWClXxYZKe6DMP4VWV5M!/mnull&bo=AQF3AAEBdwADByI!&rf=photolist&t=5\" width=\"200\" height=\"100\"><br/><big><b>可以给个好评收藏支持一下吗？<br/><big><b>Thank You！",
+				"type" : "text",
+				"value" : ""
+			},
+			"imgsrchttpphotogzphotostoreqqcompscv12uhwit3z28ypbqqfvz5yrrgysxmvkrcqsfratqlfzr86n9euodn4nrlgp3ax9rtwtsnrhi7j6ys7cpxuv4uy0yhigma9023bydad5n5tpcicj6v5qbbohgeiaaaaaaacjxqrfviewer_4width2000height1" : 
+			{
+				"index" : 26,
+				"order" : 126,
+				"text" : "<img src=\"http://photogz.photo.store.qq.com/psc?/V12uhwIt3z28yp/bqQfVz5yrrGYSXMvKr.cqSF.*RaTqLFzr86N9EuoDN4nRLGP3a.X9rtw.tsnRh*i7J6Ys7CPxuV4UY0yhigma9023ByDaD5n5tpcicJ6V5Q!/b&bo=HgEIAAAAAAACJxQ!&rf=viewer_4\" width=\"2000\" height=\"1\">",
+				"type" : "color",
+				"value" : "0.4980392156862745 0.7843137254901961 1"
+			},
+			"imgsrchttpphotogzphotostoreqqcompscv12uhwit3z28ypbqqfvz5yrrgysxmvkrcqsfratqlfzr86n9euodn4nrlgp3ax9rtwtsnrhi7j6ys7cpxuv4uy0yhigma9023bydad5n5tpcicj6v5qbbohgeiaaaaaaacjxqrfviewer_4width2000height2" : 
+			{
+				"index" : 4,
+				"order" : 104,
+				"text" : "<img src=\"http://photogz.photo.store.qq.com/psc?/V12uhwIt3z28yp/bqQfVz5yrrGYSXMvKr.cqSF.*RaTqLFzr86N9EuoDN4nRLGP3a.X9rtw.tsnRh*i7J6Ys7CPxuV4UY0yhigma9023ByDaD5n5tpcicJ6V5Q!/b&bo=HgEIAAAAAAACJxQ!&rf=viewer_4\" width=\"2000\" height=\"2\">",
+				"type" : "color",
+				"value" : "1 0 0"
+			},
+			"imgsrchttpphotogzphotostoreqqcompscv12uhwit3z28ypbqqfvz5yrrgysxmvkrcqsfratqlfzr86n9euodn4nrlgp3ax9rtwtsnrhi7j6ys7cpxuv4uy0yhigma9023bydad5n5tpcicj6v5qbbohgeiaaaaaaacjxqrfviewer_4width2000height51" : 
+			{
+				"index" : 12,
+				"order" : 112,
+				"text" : "<img src=\"http://photogz.photo.store.qq.com/psc?/V12uhwIt3z28yp/bqQfVz5yrrGYSXMvKr.cqSF.*RaTqLFzr86N9EuoDN4nRLGP3a.X9rtw.tsnRh*i7J6Ys7CPxuV4UY0yhigma9023ByDaD5n5tpcicJ6V5Q!/b&bo=HgEIAAAAAAACJxQ!&rf=viewer_4\" width=\"2000\" height=\"2\">",
+				"type" : "bool",
+				"value" : true
+			},
+			"imgsrchttpphotogzphotostoreqqcompscv12uhwit3z28ypbqqfvz5yrrgysxmvkrcqsfratqlfzr86n9euodn4nrlgp3ax9rtwtsnrhi7j6ys7cpxuv4uy0yhigma9023bydad5n5tpcicj6v5qbbohgeiaaaaaaacjxqrfviewer_4width2000height52" : 
+			{
+				"index" : 92,
+				"order" : 192,
+				"text" : "<img src=\"http://photogz.photo.store.qq.com/psc?/V12uhwIt3z28yp/bqQfVz5yrrGYSXMvKr.cqSF.*RaTqLFzr86N9EuoDN4nRLGP3a.X9rtw.tsnRh*i7J6Ys7CPxuV4UY0yhigma9023ByDaD5n5tpcicJ6V5Q!/b&bo=HgEIAAAAAAACJxQ!&rf=viewer_4\" width=\"2000\" height=\"5\">",
+				"type" : "color",
+				"value" : "1 0 0"
+			},
+			"imgsrchttpphotogzphotostoreqqcompscv12uhwit3z28ypbqqfvz5yrrgysxmvkrcqsfratqlfzr86n9euodn4nrlgp3ax9rtwtsnrhi7j6ys7cpxuv4uy0yhigma9023bydad5n5tpcicj6v5qbbohgeiaaaaaaacjxqrfviewer_4width2000height53" : 
+			{
+				"index" : 84,
+				"order" : 184,
+				"text" : "<img src=\"http://photogz.photo.store.qq.com/psc?/V12uhwIt3z28yp/bqQfVz5yrrGYSXMvKr.cqSF.*RaTqLFzr86N9EuoDN4nRLGP3a.X9rtw.tsnRh*i7J6Ys7CPxuV4UY0yhigma9023ByDaD5n5tpcicJ6V5Q!/b&bo=HgEIAAAAAAACJxQ!&rf=viewer_4\" width=\"2000\" height=\"5\">",
+				"type" : "color",
+				"value" : "1 0 0"
+			},
+			"imgsrchttpphotogzphotostoreqqcompscv12uhwit3z28ypbqqfvz5yrrgysxmvkrcqsfratqlfzr86n9euodn4nrlgp3ax9rtwtsnrhi7j6ys7cpxuv4uy0yhigma9023bydad5n5tpcicj6v5qbbohgeiaaaaaaacjxqrfviewer_4width2000height54" : 
+			{
+				"index" : 34,
+				"order" : 134,
+				"text" : "<img src=\"http://photogz.photo.store.qq.com/psc?/V12uhwIt3z28yp/bqQfVz5yrrGYSXMvKr.cqSF.*RaTqLFzr86N9EuoDN4nRLGP3a.X9rtw.tsnRh*i7J6Ys7CPxuV4UY0yhigma9023ByDaD5n5tpcicJ6V5Q!/b&bo=HgEIAAAAAAACJxQ!&rf=viewer_4\" width=\"2000\" height=\"5\">",
+				"type" : "color",
+				"value" : "1 0 0"
+			},
+			"imgsrchttpphotogzphotostoreqqcompscv12uhwit3z28ypbqqfvz5yrrgysxmvkrcqsfratqlfzr86n9euodn4nrlgp3ax9rtwtsnrhi7j6ys7cpxuv4uy0yhigma9023bydad5n5tpcicj6v5qbbohgeiaaaaaaacjxqrfviewer_4width2000height55" : 
+			{
+				"index" : 27,
+				"order" : 127,
+				"text" : "<img src=\"http://photogz.photo.store.qq.com/psc?/V12uhwIt3z28yp/bqQfVz5yrrGYSXMvKr.cqSF.*RaTqLFzr86N9EuoDN4nRLGP3a.X9rtw.tsnRh*i7J6Ys7CPxuV4UY0yhigma9023ByDaD5n5tpcicJ6V5Q!/b&bo=HgEIAAAAAAACJxQ!&rf=viewer_4\" width=\"2000\" height=\"5\">",
+				"type" : "color",
+				"value" : "1 0 0"
+			},
+			"imgsrchttpphotogzphotostoreqqcompscv12uhwit3z28ypbqqfvz5yrrgysxmvkrcqsfratqlfzr86n9euodn4nrlgp3ax9rtwtsnrhi7j6ys7cpxuv4uy0yhigma9023bydad5n5tpcicj6v5qbbohgeiaaaaaaacjxqrfviewer_4width2000height56" : 
+			{
+				"index" : 62,
+				"order" : 162,
+				"text" : "<img src=\"http://photogz.photo.store.qq.com/psc?/V12uhwIt3z28yp/bqQfVz5yrrGYSXMvKr.cqSF.*RaTqLFzr86N9EuoDN4nRLGP3a.X9rtw.tsnRh*i7J6Ys7CPxuV4UY0yhigma9023ByDaD5n5tpcicJ6V5Q!/b&bo=HgEIAAAAAAACJxQ!&rf=viewer_4\" width=\"2000\" height=\"5\">",
+				"type" : "color",
+				"value" : "1 0 0"
+			},
+			"music1" : 
+			{
+				"index" : 89,
+				"order" : 189,
+				"text" : "♪♪音乐/Music",
+				"type" : "group",
+				"value" : ""
+			},
+			"musicbar" : 
+			{
+				"index" : 30,
+				"order" : 130,
+				"text" : "<hr/><big><b>🔘音频条 Audio Bar",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty1" : 
+			{
+				"fraction" : true,
+				"index" : 40,
+				"max" : 2,
+				"min" : -2,
+				"order" : 140,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "<b>🔘总组件鼠标视差大小",
+				"type" : "slider",
+				"value" : 0
+			},
+			"newproperty13" : 
+			{
+				"index" : 85,
+				"order" : 185,
+				"text" : "🖱鼠标设置/Mouse settings",
+				"type" : "text",
+				"value" : ""
+			},
+			"newproperty16" : 
+			{
+				"condition" : "shu.value",
+				"index" : 87,
+				"order" : 187,
+				"text" : "鼠标尾迹颜色Mouse Trail Color",
+				"type" : "color",
+				"value" : "0.5725490196078431 0.7372549019607844 1"
+			},
+			"newproperty17" : 
+			{
+				"condition" : "shu.value",
+				"fraction" : true,
+				"index" : 88,
+				"max" : 10,
+				"min" : 1,
+				"order" : 188,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "鼠标尾迹大小",
+				"type" : "slider",
+				"value" : 5
+			},
+			"newproperty19" : 
+			{
+				"index" : 28,
+				"order" : 128,
+				"text" : "🔊音频感应设置/Audio induction settings",
+				"type" : "group",
+				"value" : ""
+			},
+			"newproperty21" : 
+			{
+				"index" : 93,
+				"order" : 193,
+				"text" : "💴关于赞助/Regarding Sponsorship",
+				"type" : "group",
+				"value" : ""
+			},
+			"newproperty23" : 
+			{
+				"condition" : "",
+				"fraction" : true,
+				"index" : 37,
+				"max" : 5,
+				"min" : 0.1,
+				"order" : 137,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "<hr/><big><b>🔘总组件大小 Total component size",
+				"type" : "slider",
+				"value" : 0.52
+			},
+			"newproperty25" : 
+			{
+				"condition" : "newproperty54.value",
+				"fraction" : true,
+				"index" : 54,
+				"max" : 10,
+				"min" : 1,
+				"order" : 154,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "早中晚状态显示大小",
+				"type" : "slider",
+				"value" : 3.125
+			},
+			"newproperty26" : 
+			{
+				"condition" : "newproperty46.value",
+				"fraction" : true,
+				"index" : 59,
+				"max" : 10,
+				"min" : 0.1,
+				"order" : 159,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "帧率显示大小",
+				"type" : "slider",
+				"value" : 0.628
+			},
+			"newproperty3" : 
+			{
+				"condition" : "bigbraindropsplashing.value",
+				"fraction" : true,
+				"index" : 15,
+				"max" : 20,
+				"min" : 1,
+				"order" : 115,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "<b>🔘星轨运动速度<br/> Orbital velocity",
+				"type" : "slider",
+				"value" : 5
+			},
+			"newproperty30" : 
+			{
+				"condition" : "",
+				"fraction" : true,
+				"index" : 23,
+				"max" : 3,
+				"min" : 1,
+				"order" : 123,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "<hr><big><b>🔘镜头大小<br/>Lens size",
+				"type" : "slider",
+				"value" : 1
+			},
+			"newproperty31" : 
+			{
+				"index" : 63,
+				"order" : 163,
+				"text" : "<center><h3>-⏰时间组件设置⏰-<h3><h3>⏰Time component settings⏰<br/>",
+				"type" : "text",
+				"value" : ""
+			},
+			"newproperty32" : 
+			{
+				"condition" : "time.value",
+				"fraction" : true,
+				"index" : 66,
+				"max" : 300,
+				"min" : 1,
+				"order" : 166,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "时间显示大小 Time display size",
+				"type" : "slider",
+				"value" : 119.153
+			},
+			"newproperty33" : 
+			{
+				"condition" : "day1.value",
+				"fraction" : true,
+				"index" : 74,
+				"max" : 300,
+				"min" : 1,
+				"order" : 174,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "日期显示大小 Date display size",
+				"type" : "slider",
+				"value" : 163.682
+			},
+			"newproperty34" : 
+			{
+				"condition" : "time.value",
+				"index" : 69,
+				"order" : 169,
+				"text" : "时间显示颜色 Time display color",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"newproperty35" : 
+			{
+				"condition" : "day1.value",
+				"index" : 75,
+				"order" : 175,
+				"text" : "日期显示颜色 Date display color",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"newproperty4" : 
+			{
+				"condition" : "musicbar.value",
+				"index" : 31,
+				"options" : 
+				[
+					{
+						"label" : "样式1",
+						"value" : "0"
+					},
+					{
+						"label" : "样式2",
+						"value" : "1"
+					},
+					{
+						"label" : "样式3",
+						"value" : "2"
+					}
+				],
+				"order" : 131,
+				"text" : "<b>🔘音频条样式",
+				"type" : "combo",
+				"value" : "1"
+			},
+			"newproperty45" : 
+			{
+				"fraction" : true,
+				"index" : 91,
+				"max" : 1,
+				"min" : 0,
+				"order" : 191,
+				"precision" : 2,
+				"step" : 0.1,
+				"text" : "音乐大小 Music Size",
+				"type" : "slider",
+				"value" : 1
+			},
+			"newproperty46" : 
+			{
+				"index" : 57,
+				"order" : 157,
+				"text" : "<hr><big><b>🔘当前帧率显示",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty5" : 
+			{
+				"index" : 35,
+				"order" : 135,
+				"text" : "🌐组件设置/ Component Settings",
+				"type" : "group",
+				"value" : ""
+			},
+			"newproperty50" : 
+			{
+				"index" : 42,
+				"order" : 142,
+				"text" : "<hr><big><b>🔘组件自定义文字",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty51" : 
+			{
+				"condition" : "newproperty50.value",
+				"index" : 45,
+				"order" : 145,
+				"text" : "自定义文字1颜色",
+				"type" : "color",
+				"value" : "0.6431372549019608 0.8627450980392157 0.8588235294117647"
+			},
+			"newproperty52" : 
+			{
+				"condition" : "newproperty50.value",
+				"fraction" : true,
+				"index" : 49,
+				"max" : 1,
+				"min" : 0,
+				"order" : 149,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "自定义文字不透明度",
+				"type" : "slider",
+				"value" : 1
+			},
+			"newproperty53" : 
+			{
+				"condition" : "newproperty50.value",
+				"fraction" : true,
+				"index" : 47,
+				"max" : 100,
+				"min" : 1,
+				"order" : 147,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "自定义文字1大小",
+				"type" : "slider",
+				"value" : 28.864
+			},
+			"newproperty54" : 
+			{
+				"index" : 52,
+				"order" : 152,
+				"text" : "<hr><big><b>🔘早中晚显示",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty55" : 
+			{
+				"condition" : "newproperty50.value",
+				"index" : 43,
+				"order" : 143,
+				"text" : "<b>自定义文字",
+				"type" : "textinput",
+				"value" : "Bilibili/抖音 夜莺Night"
+			},
+			"newproperty57" : 
+			{
+				"condition" : "week1.value",
+				"index" : 79,
+				"options" : 
+				[
+					{
+						"label" : "字体1",
+						"value" : "1"
+					},
+					{
+						"label" : "字体2",
+						"value" : "2"
+					},
+					{
+						"label" : "字体3",
+						"value" : "3"
+					},
+					{
+						"label" : "字体4",
+						"value" : "4"
+					},
+					{
+						"label" : "字体5",
+						"value" : "5"
+					}
+				],
+				"order" : 179,
+				"text" : "<b>🔘星期组件字体 Week component font",
+				"type" : "combo",
+				"value" : "5"
+			},
+			"newproperty59" : 
+			{
+				"index" : 53,
+				"order" : 153,
+				"text" : "<big><b>🔘早中晚英文显示",
+				"type" : "bool",
+				"value" : true
+			},
+			"newproperty8" : 
+			{
+				"condition" : "time.value",
+				"index" : 68,
+				"order" : 168,
+				"text" : "显示到秒Display to seconds",
+				"type" : "bool",
+				"value" : false
+			},
+			"night" : 
+			{
+				"index" : 5,
+				"order" : 105,
+				"text" : "<big><b><a href='https://space.bilibili.com/279406515?spm_id_from=333.1007.0.0'><center>动态制作：-夜莺Night<br/>",
+				"type" : "text",
+				"value" : ""
+			},
+			"schemecolor" : 
+			{
+				"index" : 3,
+				"order" : 103,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.38823529411764707 0.8392156862745098 1"
+			},
+			"shine" : 
+			{
+				"index" : 21,
+				"order" : 121,
+				"text" : "<hr/><big><b>🔘雾气<br/> Fog",
+				"type" : "bool",
+				"value" : true
+			},
+			"shu" : 
+			{
+				"index" : 86,
+				"order" : 186,
+				"text" : "<hr/><big><b>🔘鼠标尾迹Mouse Trail",
+				"type" : "bool",
+				"value" : true
+			},
+			"time" : 
+			{
+				"condition" : "",
+				"index" : 64,
+				"order" : 164,
+				"text" : "<big><b>🔘时间组件显示Time component display",
+				"type" : "bool",
+				"value" : true
+			},
+			"week1" : 
+			{
+				"index" : 78,
+				"order" : 178,
+				"text" : "<hr/><big><b>🔘星期组件显示 Week component display",
+				"type" : "bool",
+				"value" : true
+			},
+			"weekdisplay" : 
+			{
+				"condition" : "week1.value",
+				"index" : 81,
+				"order" : 181,
+				"text" : "星期显示颜色 Week display color",
+				"type" : "color",
+				"value" : "1 1 1"
+			},
+			"weekdisplaysize" : 
+			{
+				"condition" : "week1.value",
+				"fraction" : true,
+				"index" : 80,
+				"max" : 300,
+				"min" : 0,
+				"order" : 180,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "星期显示大小 Week display size",
+				"type" : "slider",
+				"value" : 45.726
+			},
+			"x" : 
+			{
+				"condition" : "week1.value",
+				"fraction" : true,
+				"index" : 82,
+				"max" : 2,
+				"min" : -2,
+				"order" : 182,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp星期位置X  Week position X",
+				"type" : "slider",
+				"value" : -1
+			},
+			"x1" : 
+			{
+				"condition" : "time.value",
+				"fraction" : true,
+				"index" : 70,
+				"max" : 2,
+				"min" : -2,
+				"order" : 170,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp时间位置X  Time Position X",
+				"type" : "slider",
+				"value" : -0.623
+			},
+			"x2" : 
+			{
+				"condition" : "day1.value",
+				"fraction" : true,
+				"index" : 76,
+				"max" : 2,
+				"min" : -2,
+				"order" : 176,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp日期位置X  Date Position X",
+				"type" : "slider",
+				"value" : 0.183
+			},
+			"x3" : 
+			{
+				"condition" : "",
+				"fraction" : true,
+				"index" : 24,
+				"max" : 1,
+				"min" : -1,
+				"order" : 124,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp镜头位置X<br/>Lens position X",
+				"type" : "slider",
+				"value" : 0
+			},
+			"x5" : 
+			{
+				"condition" : "newproperty46.value",
+				"fraction" : true,
+				"index" : 60,
+				"max" : 2,
+				"min" : -2,
+				"order" : 160,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "帧率位置X",
+				"type" : "slider",
+				"value" : 0.923
+			},
+			"x6" : 
+			{
+				"condition" : "newproperty54.value",
+				"fraction" : true,
+				"index" : 55,
+				"max" : 2,
+				"min" : -2,
+				"order" : 155,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "早中晚状态显示位置X",
+				"type" : "slider",
+				"value" : 0.935
+			},
+			"x7" : 
+			{
+				"condition" : "newproperty50.value",
+				"fraction" : true,
+				"index" : 50,
+				"max" : 1,
+				"min" : -1,
+				"order" : 150,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "自定义文本位置X",
+				"type" : "slider",
+				"value" : 0.849
+			},
+			"x8" : 
+			{
+				"fraction" : true,
+				"index" : 38,
+				"max" : 1,
+				"min" : 0,
+				"order" : 138,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "<b>🔘总组件位置X",
+				"type" : "slider",
+				"value" : 0.483
+			},
+			"y" : 
+			{
+				"condition" : "week1.value",
+				"fraction" : true,
+				"index" : 83,
+				"max" : 1,
+				"min" : -1,
+				"order" : 183,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp星期位置Y  Week position Y",
+				"type" : "slider",
+				"value" : -0.548
+			},
+			"y1" : 
+			{
+				"condition" : "",
+				"fraction" : true,
+				"index" : 25,
+				"max" : 1,
+				"min" : -1,
+				"order" : 125,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp镜头位置Y<br/>Lens position Y",
+				"type" : "slider",
+				"value" : 0
+			},
+			"y2" : 
+			{
+				"condition" : "time.value",
+				"fraction" : true,
+				"index" : 71,
+				"max" : 1,
+				"min" : -1,
+				"order" : 171,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp时间位置Y  Time Position Y",
+				"type" : "slider",
+				"value" : -0.402
+			},
+			"y3" : 
+			{
+				"condition" : "day1.value",
+				"fraction" : true,
+				"index" : 77,
+				"max" : 1,
+				"min" : -1,
+				"order" : 177,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp日期位置Y  Date Position Y",
+				"type" : "slider",
+				"value" : 0.203
+			},
+			"y5" : 
+			{
+				"condition" : "newproperty46.value",
+				"fraction" : true,
+				"index" : 61,
+				"max" : 1,
+				"min" : -1,
+				"order" : 161,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "帧率位置Y",
+				"type" : "slider",
+				"value" : 0.268
+			},
+			"y6" : 
+			{
+				"fraction" : true,
+				"index" : 39,
+				"max" : 1,
+				"min" : 0,
+				"order" : 139,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "<b>🔘总组件位置Y",
+				"type" : "slider",
+				"value" : 0.107
+			},
+			"y7" : 
+			{
+				"condition" : "newproperty54.value",
+				"fraction" : true,
+				"index" : 56,
+				"max" : 2,
+				"min" : -2,
+				"order" : 156,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "早中晚位置显示位置Y",
+				"type" : "slider",
+				"value" : 1.654
+			},
+			"y8" : 
+			{
+				"condition" : "newproperty50.value",
+				"fraction" : true,
+				"index" : 51,
+				"max" : 1,
+				"min" : -1,
+				"order" : 151,
+				"precision" : 4,
+				"step" : 0.001,
+				"text" : "自定义文本位置Y",
+				"type" : "slider",
+				"value" : -0.075
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.gif",
+	"ratingsex" : "none",
+	"ratingviolence" : "none",
+	"tags" : [ "Anime" ],
+	"title" : "【Customize自定义】Hatsune Miku 初音未来 星河沉梦——夜莺Night   Starry River Sinking Dreams",
+	"type" : "scene",
+	"version" : 64,
+	"visibility" : "public",
+	"workshopid" : "3354366708",
+	"workshopurl" : "steam://url/CommunityFilePage/3354366708"
+}

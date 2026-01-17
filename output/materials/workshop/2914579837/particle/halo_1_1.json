@@ -1,0 +1,21 @@
+{
+	"passes" : 
+	[
+		{
+			"alphawriting" : "default",
+			"blending" : "additive",
+			"constantshadervalues" : 
+			{
+				"ui_editor_properties_overbright" : 2
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericparticle",
+			"textures" : 
+			[
+				"workshop/2914579837/particle/[CITYPNG.COM]Golden Sparkle Light Star HD PNG-128"
+			]
+		}
+	]
+}

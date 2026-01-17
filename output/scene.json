@@ -1,0 +1,4261 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.00000 0.00000 0.00000",
+		"bloom" : false,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 1.9,
+		"bloomthreshold" : 0.64999998,
+		"bloomtint" : "1.00000 1.00000 1.00000",
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 0.2,
+		"cameraparallaxdelay" : 1.6,
+		"cameraparallaxmouseinfluence" : 0.30000001,
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 1.09,
+		"clearcolor" : "0.00000 0.00000 0.00000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"gravitydirection" : "0.00000 -1.00000 0.00000",
+		"gravitystrength" : 1.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 2160,
+			"width" : 3840
+		},
+		"perspectiveoverridefov" : 95.0,
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"winddirection" : "0.70700 0.70700 0.00000",
+		"windenabled" : false,
+		"windstrength" : 1.0,
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"castshadow" : false,
+			"id" : 145,
+			"image" : "models/背景.json",
+			"name" : "背景",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.68000 1.68000",
+			"scale" : "2.00000 2.00000 1.00000",
+			"size" : "1920.00000 1080.00000"
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 5347,
+			"instanceoverride" : 
+			{
+				"colorn" : "0.42353 0.55686 1.00000",
+				"id" : 5349,
+				"rate" : 
+				{
+					"user" : "newproperty3",
+					"value" : 5.0
+				},
+				"size" : 1.46
+			},
+			"name" : "Circular Particles",
+			"origin" : "0.12592 -168.36600 0.00000",
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 145,
+			"particle" : "particles/workshop/3098898533/new_particle_systemflat.json",
+			"scale" : "0.57476 0.57476 1.00000",
+			"visible" : 
+			{
+				"user" : "bigbraindropsplashing",
+				"value" : true
+			}
+		},
+		{
+			"alpha" : 0.5,
+			"angles" : "0.00000 -0.00000 0.00000",
+			"castshadow" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 2216,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.88
+							},
+							"id" : 2217,
+							"textures" : [ null, "masks/opacity_mask_74ad2b43" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1894,
+			"image" : "models/背景.json",
+			"name" : "背景",
+			"origin" : "0.00000 0.00006 0.00000",
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 145,
+			"scale" : "0.95793 0.95793 1.00000",
+			"size" : "1920.00000 1080.00000"
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 6222,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.69999999,
+				"id" : 6224,
+				"rate" : 
+				{
+					"user" : "newproperty3",
+					"value" : 5.0
+				},
+				"size" : 2.27
+			},
+			"name" : "Circular Particles",
+			"origin" : "0.12592 -168.36600 0.00000",
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 145,
+			"particle" : "particles/workshop/3098898533/new_particle_systemflat.json",
+			"scale" : "0.28738 0.28738 1.00000",
+			"visible" : 
+			{
+				"user" : "bigbraindropsplashing",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"castshadow" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/blurprecise/effect.json",
+					"id" : 165,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "4 4"
+							},
+							"id" : 166
+						},
+						{
+							"combos" : 
+							{
+								"ENABLEMASK" : 1,
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "4 4"
+							},
+							"id" : 167,
+							"textures" : [ null, null, "masks/blur_precise_gaussian_y_mask_889c6d79" ]
+						}
+					],
+					"visible" : false
+				},
+				{
+					"file" : "effects/blur/effect.json",
+					"id" : 2036,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"id" : 2037
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"scale" : "1.44 1.44"
+							},
+							"id" : 2038
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"scale" : "1.44 1.44"
+							},
+							"id" : 2039
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"compositecolor" : "1 1 1"
+							},
+							"id" : 2040,
+							"textures" : [ null, "masks/blur_precise_gaussian_y_mask_889c6d79", null ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 161,
+			"image" : "models/util/composelayer.json",
+			"name" : "可调整组合层",
+			"origin" : "1.88135 151.78784 0.00000",
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 145,
+			"scale" : "0.47896 0.47896 1.00000",
+			"size" : "3840.00000 1500.00000"
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.07255",
+			"id" : 268,
+			"instanceoverride" : 
+			{
+				"count" : 0.80000001,
+				"id" : 0,
+				"rate" : 1.2
+			},
+			"name" : "Twinkling shooting star",
+			"origin" : "230.30066 368.85071 0.00000",
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 145,
+			"particle" : "particles/workshop/2914579837/deku_twinkle_shootingstar.json",
+			"scale" : "-0.47896 0.47896 1.00000",
+			"visible" : 
+			{
+				"user" : "bigbmeteor",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 3.11935",
+			"id" : 225,
+			"instanceoverride" : 
+			{
+				"id" : 227,
+				"size" : 1.72
+			},
+			"name" : "Stars",
+			"origin" : "1.71399 -109.80759 0.00000",
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 145,
+			"particle" : "particles/workshop/2097513175/Stars.json",
+			"scale" : "0.53863 0.41217 1.00000",
+			"visible" : 
+			{
+				"user" : "hrbigbbrstar",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 794,
+			"instanceoverride" : 
+			{
+				"count" : 2.0,
+				"id" : 796
+			},
+			"name" : "Stars",
+			"origin" : "-2.40002 105.64508 0.00000",
+			"parent" : 145,
+			"particle" : "particles/workshop/2097513175/Stars.json",
+			"scale" : "0.99251 0.94655 1.00000",
+			"visible" : 
+			{
+				"user" : "hrbigbbrstar",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 200,
+			"instanceoverride" : 
+			{
+				"id" : 0
+			},
+			"name" : "Stars",
+			"origin" : "-48.36340 -48.38376 0.00000",
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 145,
+			"particle" : "particles/workshop/2097513175/Stars.json",
+			"scale" : "0.53863 0.55397 1.00000",
+			"visible" : 
+			{
+				"user" : "hrbigbbrstar",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 -2.00207",
+			"id" : 240,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.81999999,
+				"id" : 241,
+				"size" : 1.96,
+				"speed" : 0.60000002
+			},
+			"name" : "羽毛",
+			"origin" : "1437.81567 1365.30029 0.00000",
+			"particle" : "particles/presets/leaves1.json",
+			"visible" : 
+			{
+				"user" : "hrbigbbrfeatherparticles",
+				"value" : true
+			}
+		},
+		{
+			"castshadow" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 4053,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"DUALWAVES" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"direction" : 1.6406095,
+								"direction2" : 3.1046066,
+								"exponent" : 1.2,
+								"exponent2" : 1.1,
+								"offset2" : 0,
+								"scale" : 25,
+								"scale2" : 15.6,
+								"speed" : 1,
+								"speed2" : 1,
+								"strength" : 0.37
+							},
+							"id" : 4054,
+							"textures" : [ null, "masks/waterwaves_mask_83a36ac9" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "bigbrain",
+						"value" : true
+					}
+				},
+				{
+					"file" : "effects/waterripple/effect.json",
+					"id" : 4056,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"animationspeed" : 0.11,
+								"ratio" : 1.04,
+								"ripplestrength" : 0.07,
+								"scale" : 1.5599999,
+								"scrolldirection" : 0,
+								"scrollspeed" : 0
+							},
+							"id" : 4057,
+							"textures" : [ null, "masks/waterripple_mask_0f96b5dd", "effects/waterripplenormal" ]
+						}
+					],
+					"visible" : 
+					{
+						"user" : "bigbrain",
+						"value" : true
+					}
+				}
+			],
+			"id" : 3256,
+			"image" : "models/湖面.json",
+			"name" : "湖面",
+			"origin" : "1916.25049 277.93985 0.00000",
+			"size" : "3840.00000 555.00000"
+		},
+		{
+			"castshadow" : false,
+			"id" : 149,
+			"image" : "models/1.json",
+			"name" : "1",
+			"origin" : "1919.21082 696.50702 0.00000",
+			"scale" : "1.01000 1.00000 1.00000",
+			"size" : "3840.00000 1412.00000",
+			"visible" : 
+			{
+				"user" : "bigbbackgroundswitch",
+				"value" : true
+			}
+		},
+		{
+			"id" : 1115,
+			"name" : "音频条",
+			"origin" : "1944.38647 986.51831 0.00000",
+			"parallaxDepth" : "1.32000 1.32000",
+			"visible" : 
+			{
+				"user" : "musicbar",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"castshadow" : false,
+			"colorBlendMode" : 11,
+			"effects" : 
+			[
+				{
+					"file" : "effects/workshop/3082978660/enhanced_simple_audio_bars/effect.json",
+					"id" : 1367,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"Anti-alias blurring " : "0.05, 0.00",
+								"Bar Color" : "0.8117647058823529 0.8941176470588236 1",
+								"Bar Count" : 
+								{
+									"user" : "audiobarspacing",
+									"value" : 60.990002
+								},
+								"Bar Spacing" : 
+								{
+									"user" : "audiobarspacing1",
+									"value" : 0.52999997
+								},
+								"Lower/Upper Bar Bounds" : 
+								{
+									"user" : "newproperty7",
+									"value" : "0.00000 0.21000"
+								},
+								"Minimum Height (Will be multiplied by the bar width)" : 0.0,
+								"Radius" : 1.0,
+								"Volume Factor" : 1.0,
+								"ui_editor_properties_opacity" : 0.73000002
+							},
+							"id" : 1368
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/workshop/3157623591/geometric_transform/effect.json",
+					"id" : 2208,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"Curvature" : 0.97000003,
+								"Radial Tensile Strength" : 0.54000002,
+								"Strength" : 0.62
+							},
+							"id" : 2209
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 8052,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 8053,
+							"textures" : [ null, "masks/opacity_mask_6074d67f" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1208,
+			"image" : "models/util/solidlayer.json",
+			"name" : "音频条1",
+			"origin" : "-89.24756 -283.07208 0.00000",
+			"parent" : 1115,
+			"scale" : "3.57618 2.81486 1.00000",
+			"size" : "1000.00000 500.00000",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "0",
+					"name" : "newproperty4"
+				},
+				"value" : false
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"castshadow" : false,
+			"colorBlendMode" : 11,
+			"effects" : 
+			[
+				{
+					"file" : "effects/workshop/3082978660/enhanced_simple_audio_bars/effect.json",
+					"id" : 4084,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BAR_STYLE" : 2
+							},
+							"constantshadervalues" : 
+							{
+								"Anti-alias blurring" : "0.02, 0.02",
+								"Anti-alias blurring " : "0.05, 0.00",
+								"Bar Color" : "0.8117647058823529 0.8941176470588236 1",
+								"Bar Count" : 60.990002,
+								"Bar Spacing" : 0.52999997,
+								"Circle Start/End Angles" : "0.0, 360.0",
+								"Lower/Upper Bar Bounds" : "0 0.1",
+								"Minimum Height (Will be multiplied by the bar width)" : 0.0,
+								"Radius" : 1.0,
+								"Volume Factor" : 0.77999997,
+								"ui_editor_properties_opacity" : 0.73000002
+							},
+							"id" : 4085
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/workshop/3157623591/geometric_transform/effect.json",
+					"id" : 4086,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"Curvature" : 0.97000003,
+								"Radial Tensile Strength" : 0.54000002,
+								"Strength" : 0.62
+							},
+							"id" : 4087
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 4088,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 4089,
+							"textures" : [ null, "masks/opacity_mask_6074d67f" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 4083,
+			"image" : "models/util/solidlayer.json",
+			"name" : "音频条2",
+			"origin" : "-89.24756 -283.07208 0.00000",
+			"parent" : 1115,
+			"scale" : "3.57618 2.81486 1.00000",
+			"size" : "1000.00000 500.00000",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "newproperty4"
+				},
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"castshadow" : false,
+			"colorBlendMode" : 11,
+			"effects" : 
+			[
+				{
+					"file" : "effects/workshop/3082978660/enhanced_simple_audio_bars/effect.json",
+					"id" : 1079,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"HID_BTM" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"Anti-alias blurring" : "0.02, 0.02",
+								"Anti-alias blurring " : "0.05, 0.00",
+								"Bar Color" : "0.8117647058823529 0.8941176470588236 1",
+								"Bar Count" : 
+								{
+									"user" : "audiobarspacing",
+									"value" : 60
+								},
+								"Bar Spacing" : 
+								{
+									"user" : "audiobarspacing1",
+									"value" : 0.52999997
+								},
+								"Dynamic Hiding Threshold" : 0.0,
+								"Lower/Upper Bar Bounds" : 
+								{
+									"user" : "newproperty7",
+									"value" : "0.00000 0.21000"
+								},
+								"Minimum Height (Will be multiplied by the bar width)" : 0.0,
+								"Radius" : 1.0,
+								"Threshold of Hiding" : 0.1,
+								"Volume Factor" : 1.0,
+								"ui_editor_properties_opacity" : 0.73000002
+							},
+							"id" : 1080
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/workshop/3157623591/geometric_transform/effect.json",
+					"id" : 1081,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"Curvature" : 0.97000003,
+								"Radial Tensile Strength" : 0.54000002,
+								"Strength" : 0.62
+							},
+							"id" : 1082
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/opacity/effect.json",
+					"id" : 1083,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 1.0
+							},
+							"id" : 1084,
+							"textures" : [ null, "masks/opacity_mask_6074d67f" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1078,
+			"image" : "models/util/solidlayer.json",
+			"name" : "音频条3",
+			"origin" : "-89.24756 -283.07208 0.00000",
+			"parent" : 1115,
+			"scale" : "3.57618 2.81486 1.00000",
+			"size" : "1000.00000 500.00000",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "2",
+					"name" : "newproperty4"
+				},
+				"value" : false
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 875,
+			"name" : "人物",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "1.32000 1.32000"
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"castshadow" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 14075,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : -0.056864612,
+								"exponent" : 1.0,
+								"scale" : 26,
+								"speed" : 1,
+								"strength" : 0.13
+							},
+							"id" : 14076,
+							"textures" : [ null, "masks/waterwaves_mask_bc72de7b" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 12307,
+			"image" : "models/左马尾.json",
+			"name" : "左马尾",
+			"origin" : "-924.74945 -592.74384 0.00000",
+			"parent" : 875,
+			"size" : "1641.00000 637.00000"
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"castshadow" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 99368,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 0.0,
+								"exponent" : 1.0,
+								"scale" : 51.98,
+								"speed" : 1,
+								"strength" : 0.1
+							},
+							"id" : 99369
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 98183,
+			"image" : "models/右马尾.json",
+			"name" : "右马尾",
+			"origin" : "839.86353 -689.74725 0.00000",
+			"parent" : 875,
+			"size" : "1156.00000 367.00000"
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"castshadow" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 39885,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.145
+							},
+							"id" : 39886,
+							"textures" : [ null, "masks/shake_mask_142f5004" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 10105,
+			"image" : "models/初音未来 头.json",
+			"name" : "初音未来 头",
+			"origin" : "-143.44348 -174.61407 0.00000",
+			"parent" : 875,
+			"size" : "231.00000 250.00000"
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"castshadow" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/waterwaves/effect.json",
+					"id" : 31862,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"direction" : 2.7758453,
+								"exponent" : 1.0,
+								"scale" : 26,
+								"speed" : 2.0899999,
+								"strength" : 0.1
+							},
+							"id" : 31863,
+							"textures" : [ null, "masks/waterwaves_mask_c64ff5e2" ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/foliagesway/effect.json",
+					"id" : 41803,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"phase" : 0.5,
+								"power" : 1.0,
+								"ratio" : 0.30000001,
+								"scale" : 0.050000001,
+								"scrolldirection" : 0.0,
+								"speeduv" : 5.0,
+								"strength" : 0.40000001
+							},
+							"id" : 41804,
+							"textures" : [ null, "masks/foliagesway_mask_c37c76b1", null ]
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 38842,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.097000003
+							},
+							"id" : 38843,
+							"textures" : [ null, "masks/shake_mask_04bc4bed" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 7608,
+			"image" : "models/初音未来身体.json",
+			"name" : "初音未来身体",
+			"origin" : "95.19336 -305.15363 0.00000",
+			"parent" : 875,
+			"size" : "936.00000 845.00000"
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"castshadow" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/spin/effect.json",
+					"id" : 2482,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"angle" : 0,
+								"center" : "0.54026 0.55702",
+								"feather" : 0.082000002,
+								"phase" : 0,
+								"ratio" : 1,
+								"size" : 0.33487207,
+								"speed" : 0.2
+							},
+							"id" : 2483
+						}
+					],
+					"visible" : true
+				},
+				{
+					"file" : "effects/shake/effect.json",
+					"id" : 44178,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"bounds" : "0 1",
+								"friction" : "1 1",
+								"speed" : 1.0,
+								"strength" : 0.114
+							},
+							"id" : 44179,
+							"textures" : [ null, "masks/shake_mask_547e1c47" ]
+						}
+					],
+					"visible" : true
+				}
+			],
+			"id" : 1951,
+			"image" : "models/手.json",
+			"name" : "手",
+			"origin" : "-224.50000 -402.49994 0.00005",
+			"parent" : 875,
+			"size" : "525.00000 453.00000"
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.09054",
+			"id" : 3205,
+			"instanceoverride" : 
+			{
+				"id" : 3206,
+				"rate" : 0.47999999,
+				"size" : 0.75999999,
+				"speed" : 0.99000001
+			},
+			"name" : "大型",
+			"origin" : "-193.93225 -562.13629 0.00000",
+			"parent" : 875,
+			"particle" : "particles/presets/ember.json",
+			"scale" : "0.77506 1.00000 1.00000",
+			"visible" : 
+			{
+				"user" : "hrbigbbrfeatherparticles",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 2252,
+			"name" : "星轨",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"visible" : 
+			{
+				"user" : "hrbigbbrcharacterstartrajectory",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.18557",
+			"id" : 941,
+			"name" : "",
+			"origin" : "-100.71045 -343.06366 0.00000",
+			"parent" : 2252,
+			"scale" : "0.51805 0.51805 0.51805"
+		},
+		{
+			"angles" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.98514849,
+								"y" : 1.2244017e-08
+							},
+							"frame" : 303,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : -1.1880333e-08
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -1.2244017e-07
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -1,
+								"y" : -0.0
+							},
+							"frame" : 597,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 0.97115386,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -1.2244017e-07
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.96314102,
+								"y" : -0.0
+							},
+							"frame" : 909,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -1.2244017e-07
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -1,
+								"y" : -0.0
+							},
+							"frame" : 1198,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 0.96314102,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -1.2244017e-07
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.96474361,
+								"y" : -1.0408341e-17
+							},
+							"frame" : 1510,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : 9.6744191e-18
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -1.2244017e-07
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1800,
+							"front" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -1.2244017e-07
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1800,
+							"front" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 6.2831855
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.98514849,
+								"y" : -0.0
+							},
+							"frame" : 303,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0.43633232
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -1,
+								"y" : -0.0
+							},
+							"frame" : 597,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 0.97115386,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.96314102,
+								"y" : -0.0
+							},
+							"frame" : 909,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0.43633232
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -1,
+								"y" : -0.0
+							},
+							"frame" : 1198,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 0.96314102,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.96474361,
+								"y" : -0.0
+							},
+							"frame" : 1510,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0.43633232
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1800,
+							"front" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"fps" : 30,
+						"length" : 1800,
+						"mode" : "loop",
+						"wraploop" : null
+					},
+					"relative" : true
+				},
+				"value" : "0.05236 -0.00000 0.00000"
+			},
+			"castshadow" : false,
+			"id" : 944,
+			"model" : "models/圆环obj/圆环obj.mdl",
+			"name" : "圆环obj",
+			"origin" : "-189.46448 -237.02399 42.60608",
+			"parent" : 941,
+			"scale" : "700.00000 700.00000 700.00000"
+		},
+		{
+			"angles" : "0.00000 -0.26180 0.35202",
+			"id" : 1392,
+			"name" : "",
+			"origin" : "-133.04944 -284.37421 -2.71169",
+			"parent" : 2252,
+			"scale" : "0.51805 0.51805 0.51805"
+		},
+		{
+			"angles" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.99335545,
+								"y" : -0.0
+							},
+							"frame" : 301,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -1,
+								"y" : -0.0
+							},
+							"frame" : 598,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 0.9852941,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.9852941,
+								"y" : -0.0
+							},
+							"frame" : 904,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -1,
+								"y" : -0.0
+							},
+							"frame" : 1201,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 0.98688525,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.98196721,
+								"y" : -0.0
+							},
+							"frame" : 1506,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1800,
+							"front" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1800,
+							"front" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -6.2831855
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.99335545,
+								"y" : -0.0
+							},
+							"frame" : 301,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -0.43633232
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -1,
+								"y" : -0.0
+							},
+							"frame" : 598,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 0.9852941,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.9852941,
+								"y" : -0.0
+							},
+							"frame" : 904,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -0.43633232
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -1,
+								"y" : -0.0
+							},
+							"frame" : 1201,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 0.98688525,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : -0.98196721,
+								"y" : -0.0
+							},
+							"frame" : 1506,
+							"front" : 
+							{
+								"enabled" : true,
+								"magic" : true,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -0.43633232
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1800,
+							"front" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"fps" : 30,
+						"length" : 1800,
+						"mode" : "loop",
+						"wraploop" : null
+					},
+					"relative" : true
+				},
+				"value" : "0.17453 0.00000 0.00000"
+			},
+			"castshadow" : false,
+			"id" : 1395,
+			"model" : "models/圆环obj/圆环obj.mdl",
+			"name" : "圆环obj",
+			"origin" : "-189.46448 -237.02399 42.60608",
+			"parent" : 1392,
+			"scale" : "700.00000 700.00000 700.00000"
+		},
+		{
+			"angles" : 
+			{
+				"animation" : 
+				{
+					"c0" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : -0.0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 0.50166667,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1800,
+							"front" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : -1.2244017e-07
+						}
+					],
+					"c1" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : -0.0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 0.50166667,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1800,
+							"front" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 6.2831855
+						}
+					],
+					"c2" : 
+					[
+						{
+							"back" : 
+							{
+								"enabled" : true,
+								"x" : -1,
+								"y" : -0.0
+							},
+							"frame" : 0,
+							"front" : 
+							{
+								"enabled" : false,
+								"x" : 0.50166667,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						},
+						{
+							"back" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : -1,
+								"y" : 0
+							},
+							"frame" : 1800,
+							"front" : 
+							{
+								"enabled" : false,
+								"magic" : false,
+								"x" : 1,
+								"y" : 0
+							},
+							"lockangle" : true,
+							"locklength" : true,
+							"value" : 0
+						}
+					],
+					"options" : 
+					{
+						"fps" : 30,
+						"length" : 1800,
+						"mode" : "loop",
+						"wraploop" : null
+					},
+					"relative" : true
+				},
+				"value" : "0.08727 -0.00000 0.00000"
+			},
+			"id" : 17578,
+			"model" : "models/圆环5/圆环5.mdl",
+			"name" : "圆环5",
+			"origin" : "-57.32068 -423.18134 -48.26760",
+			"parent" : 2252,
+			"scale" : "814.37305 802.91492 701.21948"
+		},
+		{
+			"castshadow" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/colorkey/effect.json",
+					"id" : 2439,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.0,
+								"color" : "0.03137254901960784 0.043137254901960784 0.2784313725490196",
+								"fuzziness" : 2.4100001,
+								"tolerance" : 0.059999999
+							},
+							"id" : 2440
+						}
+					],
+					"visible" : false
+				}
+			],
+			"id" : 141,
+			"image" : "models/初音未来4k.json",
+			"name" : "初音未来4k",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"size" : "3840.00000 2160.00000",
+			"visible" : false
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 4995,
+			"name" : "组件",
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x8",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y6",
+						"value" : 0.5
+					}
+				},
+				"value" : "667.29462 1229.55542 0.00000"
+			},
+			"parallaxDepth" : 
+			{
+				"user" : "newproperty1",
+				"value" : "0.00000 0.00000"
+			},
+			"scale" : 
+			{
+				"user" : "newproperty23",
+				"value" : "0.52000 0.52000 0.52000"
+			},
+			"visible" : 
+			{
+				"user" : "hrbigbgeneralcomponentswitch",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 1054,
+			"name" : "",
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x7",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y8",
+						"value" : 0.5
+					}
+				},
+				"value" : "-148.22998 -216.85938 0.00000"
+			},
+			"parent" : 4995,
+			"scale" : "1.62866 1.62866 1.62866"
+		},
+		{
+			"alpha" : 
+			{
+				"user" : "newproperty52",
+				"value" : 1.0
+			},
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "newproperty51",
+				"value" : "0.64314 0.86275 0.85882"
+			},
+			"depthtest" : "enabled",
+			"font" : "fonts/2.ttf",
+			"horizontalalign" : "center",
+			"id" : 2045,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "文本1",
+			"opaquebackground" : false,
+			"origin" : "-0.65906 71.96497 0.00000",
+			"padding" : 32,
+			"parent" : 1054,
+			"pointsize" : 
+			{
+				"user" : "newproperty53",
+				"value" : 28.864
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.2,
+					"minvalue" : 0.80000001,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.36840 0.36840 0.61400"
+			},
+			"size" : "1293.00000 184.00000",
+			"text" : 
+			{
+				"user" : "newproperty55",
+				"value" : "Bilibili/抖音 夜莺Night"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : "newproperty50",
+				"value" : true
+			}
+		},
+		{
+			"alpha" : 
+			{
+				"user" : "newproperty52",
+				"value" : 1.0
+			},
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "_21",
+				"value" : "0.64314 0.86275 0.85882"
+			},
+			"depthtest" : "enabled",
+			"font" : "fonts/2.ttf",
+			"horizontalalign" : "center",
+			"id" : 8031,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "文本2",
+			"opaquebackground" : false,
+			"padding" : 32,
+			"parallaxDepth" : 
+			{
+				"user" : "newproperty54",
+				"value" : "1.00000 1.00000"
+			},
+			"parent" : 1054,
+			"pointsize" : 
+			{
+				"user" : "_22",
+				"value" : 33.521999
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.2,
+					"minvalue" : 0.80000001,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.23025 0.23025 0.61400"
+			},
+			"size" : "1070.00000 213.00000",
+			"text" : 
+			{
+				"user" : "_2",
+				"value" : "（可自定义文字）"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : "newproperty50",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 471,
+			"name" : "帧率位置",
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x5",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y5",
+						"value" : 0.5
+					}
+				},
+				"value" : "1920.00000 1080.00000 0.00000"
+			},
+			"parent" : 4995,
+			"scale" : 
+			{
+				"user" : "newproperty26",
+				"value" : "0.62800 0.62800 0.62800"
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "frameratecolor",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"font" : "fonts/Segment7Standard.otf",
+			"horizontalalign" : "center",
+			"id" : 1293,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "帧率显示",
+			"opaquebackground" : false,
+			"padding" : 32,
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 471,
+			"pointsize" : 24.0,
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.2,
+					"minvalue" : 0.80000001,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"size" : "390.00000 109.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t.addCheckbox({\n\t\tname: 'active',\n\t\tlabel: 'FPS counter (ON/OFF)',\n\t\tvalue: true\n\t})\n\t.addSlider({\n\t\tname: 'refreshInterval',\n\t\tlabel: 'Refresh interval (in milliseconds)',\n\t\tvalue: 500,\n\t\tmin: 0,\n\t\tmax: 1000,\n\t\tinteger: false\n\t})\n\t.addText({\n\t\tname: 'label',\n\t\tlabel: 'Label',\n\t\tvalue: 'fps:'\n\t})\n\t.finish();\n\nvar currentFrame, oldFrame = 0, fps, totFps = 0, oldTime = 0, n = 0;\n\n/**\n * @param {string} value - for property 'text'\n * @return {string} - update current property value\n */\nexport function update(value) {\n\tif (scriptProperties.active){\n\t\tlet time = new Date();\n\t\tif (oldFrame == 0){\n\t\t\toldFrame = time.getTime();\n\t\t\toldTime = oldFrame;\n\t\t}\n\t\tcurrentFrame = time.getTime();\n\t\tif (currentFrame > oldFrame){\n\t\t\tfps = 1000 / (currentFrame - oldFrame);\n\t\t\toldFrame = currentFrame;\n\t\t\ttotFps += fps;\n\t\t\tn++;\n\t\t\tif (currentFrame - oldTime >= parseInt(scriptProperties.refreshInterval)){\n\t\t\t\ttotFps /= n;\n\t\t\t\tvalue = scriptProperties.label + ' ' + Math.round(totFps);\n\t\t\t\toldTime = currentFrame;\n\t\t\t\tn = 0;\n\t\t\t\ttotFps = 0;\n\t\t\t}\n\t\t}\n\t\treturn value;\n\t}\n}",
+				"scriptproperties" : 
+				{
+					"active" : true,
+					"label" : "fps:",
+					"refreshInterval" : 500
+				},
+				"value" : "fps：60"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : "newproperty46",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 893,
+			"name" : "",
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x6",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y7",
+						"value" : 0.5
+					}
+				},
+				"value" : "269.11548 453.32031 0.00000"
+			},
+			"parent" : 4995,
+			"scale" : 
+			{
+				"user" : "newproperty25",
+				"value" : "3.12500 3.12500 3.12500"
+			}
+		},
+		{
+			"alpha" : 
+			{
+				"user" : "newproperty52",
+				"value" : 1.0
+			},
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "_21",
+				"value" : "0.64314 0.86275 0.85882"
+			},
+			"depthtest" : "enabled",
+			"font" : "fonts/书法字体.ttf",
+			"horizontalalign" : "center",
+			"id" : 2168,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "早中晚英文",
+			"opaquebackground" : false,
+			"origin" : "0.00000 -0.00012 0.00000",
+			"padding" : 32,
+			"parallaxDepth" : 
+			{
+				"user" : "newproperty54",
+				"value" : "1.00000 1.00000"
+			},
+			"parent" : 893,
+			"pointsize" : 32.0,
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.2,
+					"minvalue" : 0.80000001,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.23025 0.23025 0.61400"
+			},
+			"size" : "642.00000 173.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n\nlet shichenC = {1:'凌晨',2:'夜间',3:'早晨',4:'上午',5:'中午',6:'下午',7:'傍晚',8:'晚上'};\nlet shichenY = {1:'Before dawn',2:'At night',3:'Morning',4:'Morning',5:'Noon',6:'Afternoon',7:'Evening',8:'Night'};\nlet kong\n\nexport function update(value) {\n\tlet hour = new Date().getHours();\n\tlet timeTag = hour< 2 ?'lingchen':hour< 6 ?'yejian':hour< 8 ?'zaochen':hour< 11 ?'shangwu':hour < 13 ?'zhongwu':hour< 17 ?'xiawu':hour< 20 ?'bangwan':'wanshang';\n\tswitch (timeTag) {\n\t\tcase 'lingchen' : kong = shichenY[1] ;break;\n\t\tcase 'yejian' : kong = shichenY[2] ;break;\n\t\tcase 'zaochen' : kong = shichenY[3] ;break;\n\t\tcase 'shangwu' : kong = shichenY[4] ;break;\n\t\tcase 'zhongwu' : kong = shichenY[5] ;break;\n\t\tcase 'xiawu' : kong = shichenY[6] ;break;\n\t\tcase 'bangwan' : kong = shichenY[7] ;break;\n\t\tcase 'wanshang' : kong = shichenY[8] ;break;\n\t}\n\tvalue = kong\n\t//console.log(value);\n\treturn value\n \n}\n\n\n\n",
+				"value" : "Before dawn"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : "newproperty59",
+				"value" : true
+			}
+		},
+		{
+			"alpha" : 
+			{
+				"user" : "newproperty52",
+				"value" : 1.0
+			},
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "_21",
+				"value" : "0.64314 0.86275 0.85882"
+			},
+			"depthtest" : "enabled",
+			"font" : "fonts/书法字体.ttf",
+			"horizontalalign" : "center",
+			"id" : 1670,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "早中晚",
+			"opaquebackground" : false,
+			"origin" : "-5.32275 -46.45361 0.00000",
+			"padding" : 32,
+			"parallaxDepth" : 
+			{
+				"user" : "newproperty54",
+				"value" : "1.00000 1.00000"
+			},
+			"parent" : 893,
+			"pointsize" : 32.0,
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.2,
+					"minvalue" : 0.80000001,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.23025 0.23025 0.61400"
+			},
+			"size" : "266.00000 173.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n\nlet shichenC = {1:'凌晨',2:'深夜',3:'早晨',4:'上午',5:'中午',6:'下午',7:'傍晚',8:'晚上'};\nlet shichenY = {1:'Before dawn',2:'At night',3:'Morning',4:'Morning',5:'Noon',6:'Afternoon',7:'Eveving',8:'Night'};\nlet kong\n\nexport function update(value) {\n\tlet hour = new Date().getHours();\n\t//let hour = 23\n\tlet timeTag = hour< 2 ?'lingchen':hour< 6 ?'yejian':hour< 8 ?'zaochen':hour< 11 ?'shangwu':hour < 13 ?'zhongwu':hour< 17 ?'xiawu':hour< 20 ?'bangwan':'wanshang';\n\tswitch (timeTag) {\n\t\tcase 'lingchen' : kong = shichenC[1] ;break;\n\t\tcase 'yejian' : kong = shichenC[2] ;break;\n\t\tcase 'zaochen' : kong = shichenC[3] ;break;\n\t\tcase 'shangwu' : kong = shichenC[4] ;break;\n\t\tcase 'zhongwu' : kong = shichenC[5] ;break;\n\t\tcase 'xiawu' : kong = shichenC[6] ;break;\n\t\tcase 'bangwan' : kong = shichenC[7] ;break;\n\t\tcase 'wanshang' : kong = shichenC[8] ;break;\n\t}\n\tvalue = kong\n\t//console.log(value);\n\treturn value\n \n}\n\n\n\n\n",
+				"value" : "凌晨"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : "newproperty54",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 3991,
+			"name" : "Clock",
+			"origin" : "2408.30518 971.39758 0.00000",
+			"parent" : 4995,
+			"visible" : 
+			{
+				"user" : "time",
+				"value" : true
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "-0.00000 -0.00000 -0.00001",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "newproperty34",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 4019,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 0
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "fonts/书法字体.ttf",
+			"horizontalalign" : "center",
+			"id" : 394,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Clock",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x1",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y2",
+						"value" : 0.5
+					}
+				},
+				"value" : "-488.30518 108.60254 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "-0.70000 -0.70000",
+			"parent" : 3991,
+			"pointsize" : 
+			{
+				"user" : "newproperty32",
+				"value" : 119.153
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.1,
+					"minvalue" : 0.89999998,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.28038 0.28038 0.28038"
+			},
+			"size" : "1299.00000 707.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// Whether you want to see the seconds or not\n\t.addCheckbox({\n\t\tname: 'showSeconds',\n\t\tlabel: 'ui_editor_properties_show_seconds',\n\t\tvalue: false\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet time = new Date();\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\tvalue = hours + scriptProperties.delimiter + minutes;\n\tif (scriptProperties.showSeconds) {\n\t\tlet seconds = (\"00\" + time.getSeconds()).slice(-2);\n\t\tvalue += scriptProperties.delimiter + seconds;\n\t}\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"delimiter" : ":",
+					"showSeconds" : 
+					{
+						"user" : "newproperty8",
+						"value" : false
+					},
+					"use24hFormat" : 
+					{
+						"user" : "_24",
+						"value" : false
+					}
+				},
+				"value" : "12:34"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "b1"
+				},
+				"value" : false
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "-0.00000 -0.00000 -0.00001",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "newproperty34",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 1260,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 1261
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "systemfont_calibri",
+			"horizontalalign" : "center",
+			"id" : 6002,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Clock",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x1",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y2",
+						"value" : 0.5
+					}
+				},
+				"value" : "-488.30518 108.60254 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "-0.70000 -0.70000",
+			"parent" : 3991,
+			"pointsize" : 
+			{
+				"user" : "newproperty32",
+				"value" : 119.153
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.1,
+					"minvalue" : 0.89999998,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.28038 0.28038 0.28038"
+			},
+			"size" : "1200.00000 670.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// Whether you want to see the seconds or not\n\t.addCheckbox({\n\t\tname: 'showSeconds',\n\t\tlabel: 'ui_editor_properties_show_seconds',\n\t\tvalue: false\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet time = new Date();\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\tvalue = hours + scriptProperties.delimiter + minutes;\n\tif (scriptProperties.showSeconds) {\n\t\tlet seconds = (\"00\" + time.getSeconds()).slice(-2);\n\t\tvalue += scriptProperties.delimiter + seconds;\n\t}\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"delimiter" : ":",
+					"showSeconds" : 
+					{
+						"user" : "newproperty8",
+						"value" : false
+					},
+					"use24hFormat" : 
+					{
+						"user" : "_24",
+						"value" : false
+					}
+				},
+				"value" : "12:34"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "5",
+					"name" : "b1"
+				},
+				"value" : true
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "-0.00000 -0.00000 -0.00001",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "newproperty34",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 4074,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 4075
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "fonts/spincycle_3d_ot.otf",
+			"horizontalalign" : "center",
+			"id" : 639,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Clock",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x1",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y2",
+						"value" : 0.5
+					}
+				},
+				"value" : "-488.30518 108.60254 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "-0.70000 -0.70000",
+			"parent" : 3991,
+			"pointsize" : 
+			{
+				"user" : "newproperty32",
+				"value" : 119.153
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.1,
+					"minvalue" : 0.89999998,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.28038 0.28038 0.28038"
+			},
+			"size" : "1440.00000 610.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// Whether you want to see the seconds or not\n\t.addCheckbox({\n\t\tname: 'showSeconds',\n\t\tlabel: 'ui_editor_properties_show_seconds',\n\t\tvalue: false\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet time = new Date();\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\tvalue = hours + scriptProperties.delimiter + minutes;\n\tif (scriptProperties.showSeconds) {\n\t\tlet seconds = (\"00\" + time.getSeconds()).slice(-2);\n\t\tvalue += scriptProperties.delimiter + seconds;\n\t}\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"delimiter" : ":",
+					"showSeconds" : 
+					{
+						"user" : "newproperty8",
+						"value" : false
+					},
+					"use24hFormat" : 
+					{
+						"user" : "_24",
+						"value" : false
+					}
+				},
+				"value" : "12:34"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "4",
+					"name" : "b1"
+				},
+				"value" : false
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "-0.00000 -0.00000 -0.00001",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "newproperty34",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 4138,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 4139
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "fonts/8bitOperatorPlus8-Regular.ttf",
+			"horizontalalign" : "center",
+			"id" : 8183,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Clock",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x1",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y2",
+						"value" : 0.5
+					}
+				},
+				"value" : "-488.30518 108.60254 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "-0.70000 -0.70000",
+			"parent" : 3991,
+			"pointsize" : 
+			{
+				"user" : "newproperty32",
+				"value" : 119.153
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.1,
+					"minvalue" : 0.89999998,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.28038 0.28038 0.28038"
+			},
+			"size" : "1311.00000 635.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// Whether you want to see the seconds or not\n\t.addCheckbox({\n\t\tname: 'showSeconds',\n\t\tlabel: 'ui_editor_properties_show_seconds',\n\t\tvalue: false\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet time = new Date();\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\tvalue = hours + scriptProperties.delimiter + minutes;\n\tif (scriptProperties.showSeconds) {\n\t\tlet seconds = (\"00\" + time.getSeconds()).slice(-2);\n\t\tvalue += scriptProperties.delimiter + seconds;\n\t}\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"delimiter" : ":",
+					"showSeconds" : 
+					{
+						"user" : "newproperty8",
+						"value" : false
+					},
+					"use24hFormat" : 
+					{
+						"user" : "_24",
+						"value" : false
+					}
+				},
+				"value" : "12:34"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "3",
+					"name" : "b1"
+				},
+				"value" : false
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "-0.00000 -0.00000 -0.00001",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "newproperty34",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 4190,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 4191
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "fonts/Blackout 2 AM.ttf",
+			"horizontalalign" : "center",
+			"id" : 7186,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Clock",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x1",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y2",
+						"value" : 0.5
+					}
+				},
+				"value" : "-488.30518 108.60254 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "-0.70000 -0.70000",
+			"parent" : 3991,
+			"pointsize" : 
+			{
+				"user" : "newproperty32",
+				"value" : 119.153
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.1,
+					"minvalue" : 0.89999998,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.28038 0.28038 0.28038"
+			},
+			"size" : "1281.00000 611.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// Whether you want to see the seconds or not\n\t.addCheckbox({\n\t\tname: 'showSeconds',\n\t\tlabel: 'ui_editor_properties_show_seconds',\n\t\tvalue: false\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet time = new Date();\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\tvalue = hours + scriptProperties.delimiter + minutes;\n\tif (scriptProperties.showSeconds) {\n\t\tlet seconds = (\"00\" + time.getSeconds()).slice(-2);\n\t\tvalue += scriptProperties.delimiter + seconds;\n\t}\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"delimiter" : ":",
+					"showSeconds" : 
+					{
+						"user" : "newproperty8",
+						"value" : false
+					},
+					"use24hFormat" : 
+					{
+						"user" : "_24",
+						"value" : false
+					}
+				},
+				"value" : "12:34"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "2",
+					"name" : "b1"
+				},
+				"value" : false
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 2856,
+			"name" : "Date",
+			"origin" : "604.75745 -339.55115 0.00000",
+			"parent" : 4995,
+			"visible" : 
+			{
+				"user" : "day1",
+				"value" : true
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.98,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "newproperty35",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 1067,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 1068
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "systemfont_calibri",
+			"horizontalalign" : "center",
+			"id" : 2894,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Date",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x2",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y3",
+						"value" : 0.5
+					}
+				},
+				"value" : "1315.24268 1419.55127 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "-0.70000 -0.70000",
+			"parent" : 2856,
+			"pointsize" : 
+			{
+				"user" : "newproperty33",
+				"value" : 163.68201
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.2,
+					"minvalue" : 0.80000001,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.18000 0.18000 0.44841"
+			},
+			"size" : "2041.00000 896.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n\nexport var scriptProperties = createScriptProperties()\n\t.addCombo({\n\t\tname: 'monthFormat',\n\t\tlabel: 'Month Format',\n\t\toptions: [{\n\t\t\tlabel: 'Numeric',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '2'\n\t\t},{\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '3'\n\t\t}]\n\t})\n\t.addCombo({\n\t\tname: 'dayFormat',\n\t\tlabel: 'Day Format',\n\t\toptions: [{\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '2'\n\t\t}]\n\t})\n\t.addCheckbox({\n\t\tname: 'showDay',\n\t\tlabel: 'Show Day',\n\t\tvalue: false\n\t})\n   .addCheckbox({\n\t\tname: 'alignVertical',\n\t\tlabel: 'Align Day Vertically',\n\t\tvalue: false\n\t})\n  .addCheckbox({\n\t\tname: 'useDelimiter',\n\t\tlabel: 'Use Delimiter',\n\t\tvalue: false\n\t})\n\t.addText({\n\t\tname: 'addDelimiter',\n\t\tlabel: 'Delimiter',\n\t\tvalue: '/'\n\t})\n\t.finish();\n\n\nlet months;\nlet day;\nvar delimiterValue;\nvar newLine;\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value){\n  if (scriptProperties.useDelimiter == true){\n  delimiterValue = scriptProperties.addDelimiter\n}\n  if (scriptProperties.useDelimiter == false){\n   delimiterValue = [\n  ' '\n]\n}\nif (scriptProperties.alignVertical == true){\n   newLine = [\n  '\\n'\n]\n}\nif (scriptProperties.alignVertical == false){\n   newLine = [\n  ''\n]\n}\n  if (scriptProperties.monthFormat == 1){\n  months = [\n  '1',\n  '2',\n  '3',\n  '4',\n  '5',\n  '6',\n  '7',\n  '8',\n  '9',\n  '10',\n  '11',\n  '12'\n]\n}\n if (scriptProperties.monthFormat == 2){\n months = [\n  ' JAN ',\n  ' FEB ',\n  ' MAR ',\n  ' APR ',\n  ' MAY ',\n  ' JUN ',\n  ' JUL ',\n  ' AUG ',\n  ' SEP ',\n  ' OCT ',\n  ' NOV ',\n  ' DEC '\n]\n}\nif (scriptProperties.monthFormat == 3){\n months = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'September',\n  'October',\n  'November',\n  'December'\n]\n}\nif (scriptProperties.dayFormat == 1){\n  day = [\n  'Sun',\n  'Mon',\n  'Tue',\n  'Wed',\n  'Thu',\n  'Fri',\n  '\\nSat'\n]\n}\nif (scriptProperties.dayFormat == 2){\n day = [\n  'Sunday',\n  'Monday',\n  'Tuesday',\n  'Wednesday',\n  'Thursday',\n  'Friday',\n  '\\nSaturday'\n]\n}\n\tlet date = new Date();{\n    if (scriptProperties.showDay == true ){\n    return day[date.getDay()] + newLine + ' ' + date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n    }\n    if (scriptProperties.showDay == false ){\n\treturn   date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n}\n}\n}\n",
+				"scriptproperties" : 
+				{
+					"addDelimiter" : "",
+					"alignVertical" : false,
+					"dayFormat" : "2",
+					"monthFormat" : "2",
+					"showDay" : false,
+					"useDelimiter" : true
+				},
+				"value" : "<Date>"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "day"
+				},
+				"value" : true
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.98,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "newproperty35",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 4247,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 4248
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "fonts/8bitOperatorPlus8-Regular.ttf",
+			"horizontalalign" : "center",
+			"id" : 6259,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Date",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x2",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y3",
+						"value" : 0.5
+					}
+				},
+				"value" : "1315.24268 1419.55127 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "-0.70000 -0.70000",
+			"parent" : 2856,
+			"pointsize" : 
+			{
+				"user" : "newproperty33",
+				"value" : 163.68201
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.2,
+					"minvalue" : 0.80000001,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.18000 0.18000 0.44841"
+			},
+			"size" : "2371.00000 848.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n\nexport var scriptProperties = createScriptProperties()\n\t.addCombo({\n\t\tname: 'monthFormat',\n\t\tlabel: 'Month Format',\n\t\toptions: [{\n\t\t\tlabel: 'Numeric',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '2'\n\t\t},{\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '3'\n\t\t}]\n\t})\n\t.addCombo({\n\t\tname: 'dayFormat',\n\t\tlabel: 'Day Format',\n\t\toptions: [{\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '2'\n\t\t}]\n\t})\n\t.addCheckbox({\n\t\tname: 'showDay',\n\t\tlabel: 'Show Day',\n\t\tvalue: false\n\t})\n   .addCheckbox({\n\t\tname: 'alignVertical',\n\t\tlabel: 'Align Day Vertically',\n\t\tvalue: false\n\t})\n  .addCheckbox({\n\t\tname: 'useDelimiter',\n\t\tlabel: 'Use Delimiter',\n\t\tvalue: false\n\t})\n\t.addText({\n\t\tname: 'addDelimiter',\n\t\tlabel: 'Delimiter',\n\t\tvalue: '/'\n\t})\n\t.finish();\n\n\nlet months;\nlet day;\nvar delimiterValue;\nvar newLine;\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value){\n  if (scriptProperties.useDelimiter == true){\n  delimiterValue = scriptProperties.addDelimiter\n}\n  if (scriptProperties.useDelimiter == false){\n   delimiterValue = [\n  ' '\n]\n}\nif (scriptProperties.alignVertical == true){\n   newLine = [\n  '\\n'\n]\n}\nif (scriptProperties.alignVertical == false){\n   newLine = [\n  ''\n]\n}\n  if (scriptProperties.monthFormat == 1){\n  months = [\n  '1',\n  '2',\n  '3',\n  '4',\n  '5',\n  '6',\n  '7',\n  '8',\n  '9',\n  '10',\n  '11',\n  '12'\n]\n}\n if (scriptProperties.monthFormat == 2){\n months = [\n  ' JAN ',\n  ' FEB ',\n  ' MAR ',\n  ' APR ',\n  ' MAY ',\n  ' JUN ',\n  ' JUL ',\n  ' AUG ',\n  ' SEP ',\n  ' OCT ',\n  ' NOV ',\n  ' DEC '\n]\n}\nif (scriptProperties.monthFormat == 3){\n months = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'September',\n  'October',\n  'November',\n  'December'\n]\n}\nif (scriptProperties.dayFormat == 1){\n  day = [\n  'Sun',\n  'Mon',\n  'Tue',\n  'Wed',\n  'Thu',\n  'Fri',\n  '\\nSat'\n]\n}\nif (scriptProperties.dayFormat == 2){\n day = [\n  'Sunday',\n  'Monday',\n  'Tuesday',\n  'Wednesday',\n  'Thursday',\n  'Friday',\n  '\\nSaturday'\n]\n}\n\tlet date = new Date();{\n    if (scriptProperties.showDay == true ){\n    return day[date.getDay()] + newLine + ' ' + date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n    }\n    if (scriptProperties.showDay == false ){\n\treturn   date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n}\n}\n}\n",
+				"scriptproperties" : 
+				{
+					"addDelimiter" : "",
+					"alignVertical" : false,
+					"dayFormat" : "2",
+					"monthFormat" : "2",
+					"showDay" : false,
+					"useDelimiter" : true
+				},
+				"value" : "<Date>"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "3",
+					"name" : "day"
+				},
+				"value" : false
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.98,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "newproperty35",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 4304,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 4305
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "fonts/书法字体.ttf",
+			"horizontalalign" : "center",
+			"id" : 4786,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Date",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x2",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y3",
+						"value" : 0.5
+					}
+				},
+				"value" : "1315.24268 1419.55127 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "-0.70000 -0.70000",
+			"parent" : 2856,
+			"pointsize" : 
+			{
+				"user" : "newproperty33",
+				"value" : 163.68201
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.2,
+					"minvalue" : 0.80000001,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.18000 0.18000 0.44841"
+			},
+			"size" : "2047.00000 948.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n\nexport var scriptProperties = createScriptProperties()\n\t.addCombo({\n\t\tname: 'monthFormat',\n\t\tlabel: 'Month Format',\n\t\toptions: [{\n\t\t\tlabel: 'Numeric',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '2'\n\t\t},{\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '3'\n\t\t}]\n\t})\n\t.addCombo({\n\t\tname: 'dayFormat',\n\t\tlabel: 'Day Format',\n\t\toptions: [{\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '2'\n\t\t}]\n\t})\n\t.addCheckbox({\n\t\tname: 'showDay',\n\t\tlabel: 'Show Day',\n\t\tvalue: false\n\t})\n   .addCheckbox({\n\t\tname: 'alignVertical',\n\t\tlabel: 'Align Day Vertically',\n\t\tvalue: false\n\t})\n  .addCheckbox({\n\t\tname: 'useDelimiter',\n\t\tlabel: 'Use Delimiter',\n\t\tvalue: false\n\t})\n\t.addText({\n\t\tname: 'addDelimiter',\n\t\tlabel: 'Delimiter',\n\t\tvalue: '/'\n\t})\n\t.finish();\n\n\nlet months;\nlet day;\nvar delimiterValue;\nvar newLine;\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value){\n  if (scriptProperties.useDelimiter == true){\n  delimiterValue = scriptProperties.addDelimiter\n}\n  if (scriptProperties.useDelimiter == false){\n   delimiterValue = [\n  ' '\n]\n}\nif (scriptProperties.alignVertical == true){\n   newLine = [\n  '\\n'\n]\n}\nif (scriptProperties.alignVertical == false){\n   newLine = [\n  ''\n]\n}\n  if (scriptProperties.monthFormat == 1){\n  months = [\n  '1',\n  '2',\n  '3',\n  '4',\n  '5',\n  '6',\n  '7',\n  '8',\n  '9',\n  '10',\n  '11',\n  '12'\n]\n}\n if (scriptProperties.monthFormat == 2){\n months = [\n  ' JAN ',\n  ' FEB ',\n  ' MAR ',\n  ' APR ',\n  ' MAY ',\n  ' JUN ',\n  ' JUL ',\n  ' AUG ',\n  ' SEP ',\n  ' OCT ',\n  ' NOV ',\n  ' DEC '\n]\n}\nif (scriptProperties.monthFormat == 3){\n months = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'September',\n  'October',\n  'November',\n  'December'\n]\n}\nif (scriptProperties.dayFormat == 1){\n  day = [\n  'Sun',\n  'Mon',\n  'Tue',\n  'Wed',\n  'Thu',\n  'Fri',\n  '\\nSat'\n]\n}\nif (scriptProperties.dayFormat == 2){\n day = [\n  'Sunday',\n  'Monday',\n  'Tuesday',\n  'Wednesday',\n  'Thursday',\n  'Friday',\n  '\\nSaturday'\n]\n}\n\tlet date = new Date();{\n    if (scriptProperties.showDay == true ){\n    return day[date.getDay()] + newLine + ' ' + date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n    }\n    if (scriptProperties.showDay == false ){\n\treturn   date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n}\n}\n}\n",
+				"scriptproperties" : 
+				{
+					"addDelimiter" : "",
+					"alignVertical" : false,
+					"dayFormat" : "2",
+					"monthFormat" : "2",
+					"showDay" : false,
+					"useDelimiter" : true
+				},
+				"value" : "<Date>"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "2",
+					"name" : "day"
+				},
+				"value" : false
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.98,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "newproperty35",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 4385,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 4386
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "fonts/spincycle_3d_ot.otf",
+			"horizontalalign" : "center",
+			"id" : 286,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "Date",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x2",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y3",
+						"value" : 0.5
+					}
+				},
+				"value" : "1315.24268 1419.55127 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "-0.70000 -0.70000",
+			"parent" : 2856,
+			"pointsize" : 
+			{
+				"user" : "newproperty33",
+				"value" : 163.68201
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.2,
+					"minvalue" : 0.80000001,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "0.18000 0.18000 0.44841"
+			},
+			"size" : "2434.00000 814.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n\nexport var scriptProperties = createScriptProperties()\n\t.addCombo({\n\t\tname: 'monthFormat',\n\t\tlabel: 'Month Format',\n\t\toptions: [{\n\t\t\tlabel: 'Numeric',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '2'\n\t\t},{\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '3'\n\t\t}]\n\t})\n\t.addCombo({\n\t\tname: 'dayFormat',\n\t\tlabel: 'Day Format',\n\t\toptions: [{\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '2'\n\t\t}]\n\t})\n\t.addCheckbox({\n\t\tname: 'showDay',\n\t\tlabel: 'Show Day',\n\t\tvalue: false\n\t})\n   .addCheckbox({\n\t\tname: 'alignVertical',\n\t\tlabel: 'Align Day Vertically',\n\t\tvalue: false\n\t})\n  .addCheckbox({\n\t\tname: 'useDelimiter',\n\t\tlabel: 'Use Delimiter',\n\t\tvalue: false\n\t})\n\t.addText({\n\t\tname: 'addDelimiter',\n\t\tlabel: 'Delimiter',\n\t\tvalue: '/'\n\t})\n\t.finish();\n\n\nlet months;\nlet day;\nvar delimiterValue;\nvar newLine;\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value){\n  if (scriptProperties.useDelimiter == true){\n  delimiterValue = scriptProperties.addDelimiter\n}\n  if (scriptProperties.useDelimiter == false){\n   delimiterValue = [\n  ' '\n]\n}\nif (scriptProperties.alignVertical == true){\n   newLine = [\n  '\\n'\n]\n}\nif (scriptProperties.alignVertical == false){\n   newLine = [\n  ''\n]\n}\n  if (scriptProperties.monthFormat == 1){\n  months = [\n  '1',\n  '2',\n  '3',\n  '4',\n  '5',\n  '6',\n  '7',\n  '8',\n  '9',\n  '10',\n  '11',\n  '12'\n]\n}\n if (scriptProperties.monthFormat == 2){\n months = [\n  ' JAN ',\n  ' FEB ',\n  ' MAR ',\n  ' APR ',\n  ' MAY ',\n  ' JUN ',\n  ' JUL ',\n  ' AUG ',\n  ' SEP ',\n  ' OCT ',\n  ' NOV ',\n  ' DEC '\n]\n}\nif (scriptProperties.monthFormat == 3){\n months = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'September',\n  'October',\n  'November',\n  'December'\n]\n}\nif (scriptProperties.dayFormat == 1){\n  day = [\n  'Sun',\n  'Mon',\n  'Tue',\n  'Wed',\n  'Thu',\n  'Fri',\n  '\\nSat'\n]\n}\nif (scriptProperties.dayFormat == 2){\n day = [\n  'Sunday',\n  'Monday',\n  'Tuesday',\n  'Wednesday',\n  'Thursday',\n  'Friday',\n  '\\nSaturday'\n]\n}\n\tlet date = new Date();{\n    if (scriptProperties.showDay == true ){\n    return day[date.getDay()] + newLine + ' ' + date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n    }\n    if (scriptProperties.showDay == false ){\n\treturn   date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n}\n}\n}\n",
+				"scriptproperties" : 
+				{
+					"addDelimiter" : "",
+					"alignVertical" : false,
+					"dayFormat" : "2",
+					"monthFormat" : "2",
+					"showDay" : false,
+					"useDelimiter" : true
+				},
+				"value" : "<Date>"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "4",
+					"name" : "day"
+				},
+				"value" : false
+			}
+		},
+		{
+			"angles" : "-0.00000 -0.00000 -0.01037",
+			"id" : 4881,
+			"name" : "Day",
+			"origin" : "1920.00012 1080.00012 0.00000",
+			"parent" : 4995,
+			"scale" : "0.85000 0.85000 0.95818",
+			"visible" : 
+			{
+				"user" : "week1",
+				"value" : true
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00001",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.4,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "weekdisplay",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 4472,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 4473
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "fonts/8bitOperatorPlus8-Regular.ttf",
+			"horizontalalign" : "center",
+			"id" : 6404,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "D a y",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y",
+						"value" : 0.5
+					}
+				},
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 4881,
+			"pointsize" : 
+			{
+				"user" : "weekdisplaysize",
+				"value" : 45.726002
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.1,
+					"minvalue" : 0.89999998,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"size" : "409.00000 283.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n\nexport var scriptProperties = createScriptProperties()\n\t.addCombo({\n\t\tname: 'monthFormat',\n\t\tlabel: 'Month Format',\n\t\toptions: [{\n\t\t\tlabel: 'Numeric',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '2'\n\t\t},{\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '3'\n\t\t}]\n\t})\n\t.addCombo({\n\t\tname: 'dayFormat',\n\t\tlabel: 'Day Format',\n\t\toptions: [{\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '2'\n\t\t}]\n\t})\n\t.addCheckbox({\n\t\tname: 'showDay',\n\t\tlabel: 'Show Day',\n\t\tvalue: true\n\t})\n   .addCheckbox({\n\t\tname: 'alignVertical',\n\t\tlabel: 'Align Day Vertically',\n\t\tvalue: false\n\t})\n  .addCheckbox({\n\t\tname: 'useDelimiter',\n\t\tlabel: 'Use Delimiter',\n\t\tvalue: false\n\t})\n\t.addText({\n\t\tname: 'addDelimiter',\n\t\tlabel: 'Delimiter',\n\t\tvalue: '/'\n\t})\n\t.finish();\n\n\nlet months;\nlet day;\nvar delimiterValue;\nvar newLine;\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value){\n  if (scriptProperties.useDelimiter == true){\n  delimiterValue = scriptProperties.addDelimiter\n}\n  if (scriptProperties.useDelimiter == false){\n   delimiterValue = [\n  ' '\n]\n}\nif (scriptProperties.alignVertical == true){\n   newLine = [\n  '\\n'\n]\n}\nif (scriptProperties.alignVertical == false){\n   newLine = [\n  ''\n]\n}\n  if (scriptProperties.monthFormat == 1){\n  months = [\n  '1',\n  '2',\n  '3',\n  '4',\n  '5',\n  '6',\n  '7',\n  '8',\n  '9',\n  '10',\n  '11',\n  '12'\n]\n}\n if (scriptProperties.monthFormat == 2){\n months = [\n  'JAN',\n  'FEB',\n  'MAR',\n  'APR',\n  'MAY',\n  'JUN',\n  'JUL',\n  'AUG',\n  'SEP',\n  'OCT',\n  'NOV',\n  'DEC'\n]\n}\nif (scriptProperties.monthFormat == 3){\n months = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'September',\n  'October',\n  'November',\n  'December'\n]\n}\nif (scriptProperties.dayFormat == 1){\n  day = [\n  'S U N',\n  'M O N',\n  'T U E',\n  'W E D',\n  'T H U',\n  'F R I',\n  'S A T'\n]\n}\nif (scriptProperties.dayFormat == 2){\n day = [\n  'S U N D A Y',\n  'M O N D A Y',\n  'T U E S D A Y',\n  'W E D N E S D A Y',\n  'T H U R S D A Y',\n  'F R I D A Y',\n  'S A T U R D A Y'\n]\n}\n\tlet date = new Date();{\n    if (scriptProperties.showDay == true ){\n    return day[date.getDay()]      }\n    if (scriptProperties.showDay == false ){\n\treturn   date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n}\n}\n}\n",
+				"scriptproperties" : 
+				{
+					"addDelimiter" : "/",
+					"alignVertical" : false,
+					"dayFormat" : "2",
+					"monthFormat" : "1",
+					"showDay" : true,
+					"useDelimiter" : true
+				},
+				"value" : "DAY"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "3",
+					"name" : "newproperty57"
+				},
+				"value" : false
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "-0.00000 -0.00000 -0.00000",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.4,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "weekdisplay",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 1400,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 1401
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "fonts/书法字体.ttf",
+			"horizontalalign" : "center",
+			"id" : 1509,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "D a y",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y",
+						"value" : 0.5
+					}
+				},
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 4881,
+			"pointsize" : 
+			{
+				"user" : "weekdisplaysize",
+				"value" : 45.726002
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.1,
+					"minvalue" : 0.89999998,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"size" : "423.00000 311.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n\nexport var scriptProperties = createScriptProperties()\n\t.addCombo({\n\t\tname: 'monthFormat',\n\t\tlabel: 'Month Format',\n\t\toptions: [{\n\t\t\tlabel: 'Numeric',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '2'\n\t\t},{\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '3'\n\t\t}]\n\t})\n\t.addCombo({\n\t\tname: 'dayFormat',\n\t\tlabel: 'Day Format',\n\t\toptions: [{\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '2'\n\t\t}]\n\t})\n\t.addCheckbox({\n\t\tname: 'showDay',\n\t\tlabel: 'Show Day',\n\t\tvalue: true\n\t})\n   .addCheckbox({\n\t\tname: 'alignVertical',\n\t\tlabel: 'Align Day Vertically',\n\t\tvalue: false\n\t})\n  .addCheckbox({\n\t\tname: 'useDelimiter',\n\t\tlabel: 'Use Delimiter',\n\t\tvalue: false\n\t})\n\t.addText({\n\t\tname: 'addDelimiter',\n\t\tlabel: 'Delimiter',\n\t\tvalue: '/'\n\t})\n\t.finish();\n\n\nlet months;\nlet day;\nvar delimiterValue;\nvar newLine;\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value){\n  if (scriptProperties.useDelimiter == true){\n  delimiterValue = scriptProperties.addDelimiter\n}\n  if (scriptProperties.useDelimiter == false){\n   delimiterValue = [\n  ' '\n]\n}\nif (scriptProperties.alignVertical == true){\n   newLine = [\n  '\\n'\n]\n}\nif (scriptProperties.alignVertical == false){\n   newLine = [\n  ''\n]\n}\n  if (scriptProperties.monthFormat == 1){\n  months = [\n  '1',\n  '2',\n  '3',\n  '4',\n  '5',\n  '6',\n  '7',\n  '8',\n  '9',\n  '10',\n  '11',\n  '12'\n]\n}\n if (scriptProperties.monthFormat == 2){\n months = [\n  'JAN',\n  'FEB',\n  'MAR',\n  'APR',\n  'MAY',\n  'JUN',\n  'JUL',\n  'AUG',\n  'SEP',\n  'OCT',\n  'NOV',\n  'DEC'\n]\n}\nif (scriptProperties.monthFormat == 3){\n months = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'September',\n  'October',\n  'November',\n  'December'\n]\n}\nif (scriptProperties.dayFormat == 1){\n  day = [\n  'S U N',\n  'M O N',\n  'T U E',\n  'W E D',\n  'T H U',\n  'F R I',\n  'S A T'\n]\n}\nif (scriptProperties.dayFormat == 2){\n day = [\n  'S U N D A Y',\n  'M O N D A Y',\n  'T U E S D A Y',\n  'W E D N E S D A Y',\n  'T H U R S D A Y',\n  'F R I D A Y',\n  'S A T U R D A Y'\n]\n}\n\tlet date = new Date();{\n    if (scriptProperties.showDay == true ){\n    return day[date.getDay()]      }\n    if (scriptProperties.showDay == false ){\n\treturn   date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n}\n}\n}\n",
+				"scriptproperties" : 
+				{
+					"addDelimiter" : "/",
+					"alignVertical" : false,
+					"dayFormat" : "2",
+					"monthFormat" : "1",
+					"showDay" : true,
+					"useDelimiter" : true
+				},
+				"value" : "DAY"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "2",
+					"name" : "newproperty57"
+				},
+				"value" : false
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00001",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.4,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "weekdisplay",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 4529,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 4530
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "fonts/Alcubierre.otf",
+			"horizontalalign" : "center",
+			"id" : 1140,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "D a y",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y",
+						"value" : 0.5
+					}
+				},
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 4881,
+			"pointsize" : 
+			{
+				"user" : "weekdisplaysize",
+				"value" : 45.726002
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.1,
+					"minvalue" : 0.89999998,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"size" : "365.00000 287.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n\nexport var scriptProperties = createScriptProperties()\n\t.addCombo({\n\t\tname: 'monthFormat',\n\t\tlabel: 'Month Format',\n\t\toptions: [{\n\t\t\tlabel: 'Numeric',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '2'\n\t\t},{\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '3'\n\t\t}]\n\t})\n\t.addCombo({\n\t\tname: 'dayFormat',\n\t\tlabel: 'Day Format',\n\t\toptions: [{\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '2'\n\t\t}]\n\t})\n\t.addCheckbox({\n\t\tname: 'showDay',\n\t\tlabel: 'Show Day',\n\t\tvalue: true\n\t})\n   .addCheckbox({\n\t\tname: 'alignVertical',\n\t\tlabel: 'Align Day Vertically',\n\t\tvalue: false\n\t})\n  .addCheckbox({\n\t\tname: 'useDelimiter',\n\t\tlabel: 'Use Delimiter',\n\t\tvalue: false\n\t})\n\t.addText({\n\t\tname: 'addDelimiter',\n\t\tlabel: 'Delimiter',\n\t\tvalue: '/'\n\t})\n\t.finish();\n\n\nlet months;\nlet day;\nvar delimiterValue;\nvar newLine;\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value){\n  if (scriptProperties.useDelimiter == true){\n  delimiterValue = scriptProperties.addDelimiter\n}\n  if (scriptProperties.useDelimiter == false){\n   delimiterValue = [\n  ' '\n]\n}\nif (scriptProperties.alignVertical == true){\n   newLine = [\n  '\\n'\n]\n}\nif (scriptProperties.alignVertical == false){\n   newLine = [\n  ''\n]\n}\n  if (scriptProperties.monthFormat == 1){\n  months = [\n  '1',\n  '2',\n  '3',\n  '4',\n  '5',\n  '6',\n  '7',\n  '8',\n  '9',\n  '10',\n  '11',\n  '12'\n]\n}\n if (scriptProperties.monthFormat == 2){\n months = [\n  'JAN',\n  'FEB',\n  'MAR',\n  'APR',\n  'MAY',\n  'JUN',\n  'JUL',\n  'AUG',\n  'SEP',\n  'OCT',\n  'NOV',\n  'DEC'\n]\n}\nif (scriptProperties.monthFormat == 3){\n months = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'September',\n  'October',\n  'November',\n  'December'\n]\n}\nif (scriptProperties.dayFormat == 1){\n  day = [\n  'S U N',\n  'M O N',\n  'T U E',\n  'W E D',\n  'T H U',\n  'F R I',\n  'S A T'\n]\n}\nif (scriptProperties.dayFormat == 2){\n day = [\n  'S U N D A Y',\n  'M O N D A Y',\n  'T U E S D A Y',\n  'W E D N E S D A Y',\n  'T H U R S D A Y',\n  'F R I D A Y',\n  'S A T U R D A Y'\n]\n}\n\tlet date = new Date();{\n    if (scriptProperties.showDay == true ){\n    return day[date.getDay()]      }\n    if (scriptProperties.showDay == false ){\n\treturn   date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n}\n}\n}\n",
+				"scriptproperties" : 
+				{
+					"addDelimiter" : "/",
+					"alignVertical" : false,
+					"dayFormat" : "2",
+					"monthFormat" : "1",
+					"showDay" : true,
+					"useDelimiter" : true
+				},
+				"value" : "DAY"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "newproperty57"
+				},
+				"value" : false
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00001",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.4,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "weekdisplay",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 4594,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 4595
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "fonts/spincycle_3d_ot.otf",
+			"horizontalalign" : "center",
+			"id" : 278,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "D a y",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y",
+						"value" : 0.5
+					}
+				},
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 4881,
+			"pointsize" : 
+			{
+				"user" : "weekdisplaysize",
+				"value" : 45.726002
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.1,
+					"minvalue" : 0.89999998,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"size" : "434.00000 274.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n\nexport var scriptProperties = createScriptProperties()\n\t.addCombo({\n\t\tname: 'monthFormat',\n\t\tlabel: 'Month Format',\n\t\toptions: [{\n\t\t\tlabel: 'Numeric',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '2'\n\t\t},{\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '3'\n\t\t}]\n\t})\n\t.addCombo({\n\t\tname: 'dayFormat',\n\t\tlabel: 'Day Format',\n\t\toptions: [{\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '2'\n\t\t}]\n\t})\n\t.addCheckbox({\n\t\tname: 'showDay',\n\t\tlabel: 'Show Day',\n\t\tvalue: true\n\t})\n   .addCheckbox({\n\t\tname: 'alignVertical',\n\t\tlabel: 'Align Day Vertically',\n\t\tvalue: false\n\t})\n  .addCheckbox({\n\t\tname: 'useDelimiter',\n\t\tlabel: 'Use Delimiter',\n\t\tvalue: false\n\t})\n\t.addText({\n\t\tname: 'addDelimiter',\n\t\tlabel: 'Delimiter',\n\t\tvalue: '/'\n\t})\n\t.finish();\n\n\nlet months;\nlet day;\nvar delimiterValue;\nvar newLine;\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value){\n  if (scriptProperties.useDelimiter == true){\n  delimiterValue = scriptProperties.addDelimiter\n}\n  if (scriptProperties.useDelimiter == false){\n   delimiterValue = [\n  ' '\n]\n}\nif (scriptProperties.alignVertical == true){\n   newLine = [\n  '\\n'\n]\n}\nif (scriptProperties.alignVertical == false){\n   newLine = [\n  ''\n]\n}\n  if (scriptProperties.monthFormat == 1){\n  months = [\n  '1',\n  '2',\n  '3',\n  '4',\n  '5',\n  '6',\n  '7',\n  '8',\n  '9',\n  '10',\n  '11',\n  '12'\n]\n}\n if (scriptProperties.monthFormat == 2){\n months = [\n  'JAN',\n  'FEB',\n  'MAR',\n  'APR',\n  'MAY',\n  'JUN',\n  'JUL',\n  'AUG',\n  'SEP',\n  'OCT',\n  'NOV',\n  'DEC'\n]\n}\nif (scriptProperties.monthFormat == 3){\n months = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'September',\n  'October',\n  'November',\n  'December'\n]\n}\nif (scriptProperties.dayFormat == 1){\n  day = [\n  'S U N',\n  'M O N',\n  'T U E',\n  'W E D',\n  'T H U',\n  'F R I',\n  'S A T'\n]\n}\nif (scriptProperties.dayFormat == 2){\n day = [\n  'S U N D A Y',\n  'M O N D A Y',\n  'T U E S D A Y',\n  'W E D N E S D A Y',\n  'T H U R S D A Y',\n  'F R I D A Y',\n  'S A T U R D A Y'\n]\n}\n\tlet date = new Date();{\n    if (scriptProperties.showDay == true ){\n    return day[date.getDay()]      }\n    if (scriptProperties.showDay == false ){\n\treturn   date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n}\n}\n}\n",
+				"scriptproperties" : 
+				{
+					"addDelimiter" : "/",
+					"alignVertical" : false,
+					"dayFormat" : "2",
+					"monthFormat" : "1",
+					"showDay" : true,
+					"useDelimiter" : true
+				},
+				"value" : "DAY"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "4",
+					"name" : "newproperty57"
+				},
+				"value" : false
+			}
+		},
+		{
+			"anchor" : "none",
+			"angles" : "0.00000 -0.00000 0.00001",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"brightness" : 1.4,
+			"castshadow" : false,
+			"color" : 
+			{
+				"user" : "weekdisplay",
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"depthtest" : "enabled",
+			"effects" : 
+			[
+				{
+					"file" : "effects/reflection/effect.json",
+					"id" : 1388,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"combos" : 
+							{
+								"BLENDMODE" : 31,
+								"PERSPECTIVE" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"alpha" : 0.47999999,
+								"direction" : -0.015263074,
+								"offset" : -0.5,
+								"point0" : "0.10250 0.64581",
+								"point1" : "0.90959 0.67957",
+								"point2" : "1.10658 1.04211",
+								"point3" : "-0.20628 1.05597"
+							},
+							"id" : 1389
+						}
+					],
+					"visible" : 
+					{
+						"user" : "hrbigb",
+						"value" : true
+					}
+				}
+			],
+			"font" : "systemfont_calibri",
+			"horizontalalign" : "center",
+			"id" : 1387,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "D a y",
+			"opaquebackground" : false,
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y",
+						"value" : 0.5
+					}
+				},
+				"value" : "0.00000 0.00000 0.00000"
+			},
+			"padding" : 32,
+			"parallaxDepth" : "0.00000 0.00000",
+			"parent" : 4881,
+			"pointsize" : 
+			{
+				"user" : "weekdisplaysize",
+				"value" : 45.726002
+			},
+			"scale" : 
+			{
+				"script" : "'use strict';\n\n/*\n * Adding new properties to the editor so you can tweak these values in the editor\n */\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'frequency',\n\t\tlabel: 'ui_editor_properties_audio_frequency',\n\t\tvalue: 0,\n\t\tmin: 0,\n\t\tmax: 15,\n\t\tinteger: true\n\t})\n\t.addSlider({\n\t\tname: 'smoothing',\n\t\tlabel: 'ui_editor_properties_audio_response',\n\t\tvalue: 15,\n\t\tmin: 0,\n\t\tmax: 25,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'minvalue',\n\t\tlabel: 'ui_editor_properties_min',\n\t\tvalue: 0.8,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'maxvalue',\n\t\tlabel: 'ui_editor_properties_max',\n\t\tvalue: 1.2,\n\t\tmin: 0,\n\t\tmax: 3,\n\t\tinteger: false\n\t})\n\t.finish();\n\n/**\n * This creates a permanent link to the audio response data.\n */\nconst audioBuffer = engine.registerAudioBuffers(engine.AUDIO_RESOLUTION_16);\nlet smoothValue = 0;\nlet initialValue;\n\n/**\n * Calculate new audio-scaled value\n */\nexport function update() {\n\tconst valueDelta = scriptProperties.maxvalue - scriptProperties.minvalue;\n\tconst audioDelta = audioBuffer.average[scriptProperties.frequency] - smoothValue;\n\t\n\tsmoothValue += audioDelta * Math.min(1.0, engine.frametime * scriptProperties.smoothing);\n\tsmoothValue = Math.min(1.0, smoothValue);\n\n\treturn initialValue * (smoothValue * valueDelta + scriptProperties.minvalue);\n}\n\nexport function init(value) {\n\tinitialValue = (typeof value === 'number') ? value : value.x;\n}\n",
+				"scriptproperties" : 
+				{
+					"frequency" : 0,
+					"maxvalue" : 1.1,
+					"minvalue" : 0.89999998,
+					"smoothing" : 
+					{
+						"user" : "_01",
+						"value" : 15
+					}
+				},
+				"value" : "1.00000 1.00000 1.00000"
+			},
+			"size" : "366.00000 297.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2981960200';\n// Please note: Do not remove this line or asset references may break.\n// Please note: Do not remove this line or asset references may break.\n\n\nexport var scriptProperties = createScriptProperties()\n\t.addCombo({\n\t\tname: 'monthFormat',\n\t\tlabel: 'Month Format',\n\t\toptions: [{\n\t\t\tlabel: 'Numeric',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '2'\n\t\t},{\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '3'\n\t\t}]\n\t})\n\t.addCombo({\n\t\tname: 'dayFormat',\n\t\tlabel: 'Day Format',\n\t\toptions: [{\n\t\t\tlabel: 'Abbreviated',\n\t\t\tvalue: '1'\n\t\t}, {\n\t\t\tlabel: 'Full',\n\t\t\tvalue: '2'\n\t\t}]\n\t})\n\t.addCheckbox({\n\t\tname: 'showDay',\n\t\tlabel: 'Show Day',\n\t\tvalue: true\n\t})\n   .addCheckbox({\n\t\tname: 'alignVertical',\n\t\tlabel: 'Align Day Vertically',\n\t\tvalue: false\n\t})\n  .addCheckbox({\n\t\tname: 'useDelimiter',\n\t\tlabel: 'Use Delimiter',\n\t\tvalue: false\n\t})\n\t.addText({\n\t\tname: 'addDelimiter',\n\t\tlabel: 'Delimiter',\n\t\tvalue: '/'\n\t})\n\t.finish();\n\n\nlet months;\nlet day;\nvar delimiterValue;\nvar newLine;\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value){\n  if (scriptProperties.useDelimiter == true){\n  delimiterValue = scriptProperties.addDelimiter\n}\n  if (scriptProperties.useDelimiter == false){\n   delimiterValue = [\n  ' '\n]\n}\nif (scriptProperties.alignVertical == true){\n   newLine = [\n  '\\n'\n]\n}\nif (scriptProperties.alignVertical == false){\n   newLine = [\n  ''\n]\n}\n  if (scriptProperties.monthFormat == 1){\n  months = [\n  '1',\n  '2',\n  '3',\n  '4',\n  '5',\n  '6',\n  '7',\n  '8',\n  '9',\n  '10',\n  '11',\n  '12'\n]\n}\n if (scriptProperties.monthFormat == 2){\n months = [\n  'JAN',\n  'FEB',\n  'MAR',\n  'APR',\n  'MAY',\n  'JUN',\n  'JUL',\n  'AUG',\n  'SEP',\n  'OCT',\n  'NOV',\n  'DEC'\n]\n}\nif (scriptProperties.monthFormat == 3){\n months = [\n  'January',\n  'February',\n  'March',\n  'April',\n  'May',\n  'June',\n  'July',\n  'August',\n  'September',\n  'October',\n  'November',\n  'December'\n]\n}\nif (scriptProperties.dayFormat == 1){\n  day = [\n  'S U N',\n  'M O N',\n  'T U E',\n  'W E D',\n  'T H U',\n  'F R I',\n  'S A T'\n]\n}\nif (scriptProperties.dayFormat == 2){\n day = [\n  'S U N D A Y',\n  'M O N D A Y',\n  'T U E S D A Y',\n  'W E D N E S D A Y',\n  'T H U R S D A Y',\n  'F R I D A Y',\n  'S A T U R D A Y'\n]\n}\n\tlet date = new Date();{\n    if (scriptProperties.showDay == true ){\n    return day[date.getDay()]      }\n    if (scriptProperties.showDay == false ){\n\treturn   date.getDate() + delimiterValue + months[date.getMonth()] + delimiterValue + date.getFullYear();\n}\n}\n}\n",
+				"scriptproperties" : 
+				{
+					"addDelimiter" : "/",
+					"alignVertical" : false,
+					"dayFormat" : "2",
+					"monthFormat" : "1",
+					"showDay" : true,
+					"useDelimiter" : true
+				},
+				"value" : "DAY"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "5",
+					"name" : "newproperty57"
+				},
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"id" : 560,
+			"instanceoverride" : 
+			{
+				"colorn" : 
+				{
+					"user" : "newproperty16",
+					"value" : "1.00000 0.63137 0.00000"
+				},
+				"id" : 561,
+				"size" : 
+				{
+					"user" : "newproperty17",
+					"value" : 1.0
+				}
+			},
+			"name" : "Trails 2",
+			"origin" : "1920.00000 1080.00000 0.00000",
+			"parallaxDepth" : "0.00000 0.00000",
+			"particle" : "particles/presets/trail_1.json",
+			"visible" : 
+			{
+				"user" : "shu",
+				"value" : true
+			}
+		},
+		{
+			"angles" : "0.00000 -0.00000 0.00000",
+			"camera" : "default",
+			"fov" : 50.0,
+			"id" : 1297271,
+			"name" : "",
+			"origin" : 
+			{
+				"script" : "// 使用严格模式\n'use strict';\n\n// 创建脚本属性\nexport var scriptProperties = createScriptProperties ()\n  // 添加 X 坐标的滑块属性\n  .addSlider ( {\n    name: 'x', // 属性名称\n    label: 'X', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 添加 Y 坐标的滑块属性\n  .addSlider ( {\n    name: 'y', // 属性名称\n    label: 'Y', // 属性标签\n    value: 0.5, // 属性默认值\n    min: 0, // 滑块最小值\n    max: 1, // 滑块最大值\n    integer: false // 是否使用整数\n  })\n  // 完成脚本属性的创建\n  .finish ();\n\n/**\n * 更新组件的坐标值\n * @param {Vec3} value - 组件的原始坐标值\n * @return {Vec3} - 更新后的坐标值\n */\nexport function update (value) {\n  // 将 X 坐标乘以画布的宽度\n  value.x = scriptProperties.x * engine.canvasSize.x;\n  // 将 Y 坐标乘以画布的高度\n  value.y = scriptProperties.y * engine.canvasSize.y;\n  // 返回更新后的坐标值\n  return value;\n}\n",
+				"scriptproperties" : 
+				{
+					"x" : 
+					{
+						"user" : "x3",
+						"value" : 0.5
+					},
+					"y" : 
+					{
+						"user" : "y1",
+						"value" : 0.5
+					}
+				},
+				"value" : "2434.38477 725.25116 500.00000"
+			},
+			"path" : "scripts/camera_paths_1297271.json",
+			"queuemode" : "random",
+			"zoom" : 
+			{
+				"user" : "newproperty30",
+				"value" : 1.0
+			}
+		},
+		{
+			"id" : 7691,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.67000002,
+				"id" : 7692
+			},
+			"name" : "雾 1",
+			"origin" : "655.56073 -146.99872 0.00000",
+			"particle" : "particles/presets/fog1.json",
+			"scale" : "4.95654 2.57314 1.00000",
+			"visible" : 
+			{
+				"user" : "shine",
+				"value" : true
+			}
+		},
+		{
+			"id" : 919,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "1.【初音ミクDark】before light【keeno】(Av2377140,P1).mp3",
+			"playbackmode" : "loop",
+			"sound" : 
+			[
+				"sounds/1.【初音ミクDark】before light【keeno】(Av2377140,P1).mp3"
+			],
+			"startsilent" : false,
+			"volume" : 
+			{
+				"user" : "newproperty45",
+				"value" : 1.0
+			}
+		},
+		{
+			"castshadow" : false,
+			"id" : 2836,
+			"image" : "models/新建画布2.json",
+			"name" : "新建画布2",
+			"origin" : "3107.81201 678.98669 0.00000",
+			"scale" : "0.70000 0.70000 1.00000",
+			"size" : "1000.00000 471.00000",
+			"visible" : 
+			{
+				"user" : "bbyy",
+				"value" : false
+			}
+		},
+		{
+			"castshadow" : false,
+			"id" : 3685,
+			"image" : "models/网盘.json",
+			"name" : "网盘",
+			"origin" : "798.17725 689.13879 0.00000",
+			"scale" : "1.50000 1.50000 1.00000",
+			"size" : "214.00000 230.00000",
+			"visible" : 
+			{
+				"user" : "bigbbrahrefhttpssteamcommunitycomlinkfilterurlhttpspanquarkcns559c382d2a1elistshare",
+				"value" : false
+			}
+		}
+	],
+	"version" : 3
+}

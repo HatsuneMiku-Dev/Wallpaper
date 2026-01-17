@@ -1,0 +1,116 @@
+{
+	"controlpoint" : 
+	[
+		{
+			"flags" : 0,
+			"id" : 0,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 1,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 2,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 3,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 4,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 5,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 6,
+			"offset" : "0 0 0"
+		},
+		{
+			"flags" : 0,
+			"id" : 7,
+			"offset" : "0 0 0"
+		}
+	],
+	"emitter" : 
+	[
+		{
+			"distancemax" : 1600,
+			"distancemin" : 0,
+			"id" : 6,
+			"name" : "sphererandom",
+			"rate" : 500
+		}
+	],
+	"flags" : 4,
+	"initializer" : 
+	[
+		{
+			"id" : 2,
+			"max" : 300,
+			"min" : 150,
+			"name" : "lifetimerandom"
+		},
+		{
+			"id" : 3,
+			"max" : 3,
+			"min" : 3,
+			"name" : "sizerandom"
+		},
+		{
+			"id" : 4,
+			"min" : "255 255 255",
+			"name" : "colorrandom"
+		},
+		{
+			"id" : 5,
+			"max" : 3,
+			"min" : 0.5,
+			"name" : "alpharandom"
+		}
+	],
+	"material" : "materials/workshop/3098898533/particle/halo_1_3_1.json",
+	"maxcount" : 1000,
+	"operator" : 
+	[
+		{
+			"drag" : 5,
+			"id" : 7,
+			"name" : "movement"
+		},
+		{
+			"axis" : "0 0 0",
+			"distanceinner" : 0,
+			"distanceouter" : 7000,
+			"id" : 8,
+			"name" : "vortex",
+			"speedinner" : -10,
+			"speedouter" : -500
+		},
+		{
+			"id" : 9,
+			"name" : "alphafade"
+		}
+	],
+	"renderer" : 
+	[
+		{
+			"id" : 1,
+			"length" : 30,
+			"name" : "ropetrail",
+			"segments" : 16,
+			"subdivision" : 0
+		}
+	],
+	"starttime" : 300
+}

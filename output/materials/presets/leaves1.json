@@ -1,0 +1,18 @@
+{
+	"passes" : 
+	[
+		{
+			"alphawriting" : "default",
+			"blending" : "translucent",
+			"constantshadervalues" : 
+			{
+				"ui_editor_properties_overbright" : 2.55
+			},
+			"cullmode" : "nocull",
+			"depthtest" : "disabled",
+			"depthwrite" : "disabled",
+			"shader" : "genericparticle",
+			"textures" : [ "particle/羽毛" ]
+		}
+	]
+}
